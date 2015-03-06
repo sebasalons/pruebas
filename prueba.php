@@ -8,3 +8,7 @@
 $var = 5;
 $nombre = "sebas";
 
+
+function sebas() {
+}
+
