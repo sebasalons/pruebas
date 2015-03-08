@@ -10,5 +10,6 @@ $nombre = "sebas";
 
 
 function sebas() {
+	return 5;
 }
 
