@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/frontend
+END
+treegenerator.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/frontend/treegenerator.py
+END
+Scanner.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/frontend/Scanner.py
+END
+Scope.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/frontend/Scope.py
+END
+tokenizer.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/frontend/tokenizer.py
+END
+treeutil.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/frontend/treeutil.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/frontend/__init__.py
+END
+tree.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/frontend/tree.py
+END
+lang.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/frontend/lang.py
+END
+comment.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/frontend/comment.py
+END
+Script.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/frontend/Script.py
+END
+SyntaxException.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/frontend/SyntaxException.py
+END

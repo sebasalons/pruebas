@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/pyparsing
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/pyparsing/LICENSE
+END
+pyparsing.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/pyparsing/pyparsing.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/pyparsing/__init__.py
+END

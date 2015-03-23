@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/test/mode
+END
+html_test.js
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/test/mode/html_test.js
+END
+text_test.js
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/test/mode/text_test.js
+END
+javascript_test.js
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/test/mode/javascript_test.js
+END
+css_test.js
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/test/mode/css_test.js
+END
+xml_tokenizer_test.js
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/test/mode/xml_tokenizer_test.js
+END
+html_tokenizer_test.js
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/test/mode/html_tokenizer_test.js
+END
+javascript_tokenizer_test.js
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/test/mode/javascript_tokenizer_test.js
+END
+xml_test.js
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/test/mode/xml_test.js
+END
+css_tokenizer_test.js
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/test/mode/css_tokenizer_test.js
+END

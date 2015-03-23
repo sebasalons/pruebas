@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/scroll
+END
+MScrollBarFactory.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/scroll/MScrollBarFactory.js
+END
+NativeScrollBar.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/scroll/NativeScrollBar.js
+END
+AbstractScrollArea.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/scroll/AbstractScrollArea.js
+END
+IScrollBar.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/scroll/IScrollBar.js
+END
+__init__.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/scroll/__init__.js
+END
+ScrollSlider.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/scroll/ScrollSlider.js
+END
+ScrollPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/scroll/ScrollPane.js
+END
+ScrollBar.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/scroll/ScrollBar.js
+END

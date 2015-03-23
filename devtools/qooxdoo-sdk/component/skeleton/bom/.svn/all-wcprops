@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/skeleton/bom
+END
+qx-bom.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/skeleton/bom/qx-bom.js
+END
+config.tmpl.json
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/skeleton/bom/config.tmpl.json
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/skeleton/bom/index.html
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/skeleton/bom/readme.txt
+END
+generate.tmpl.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/skeleton/bom/generate.tmpl.py
+END

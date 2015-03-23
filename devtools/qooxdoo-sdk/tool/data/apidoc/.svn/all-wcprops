@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/apidoc
+END
+qx-xml.rnc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/apidoc/qx-xml.rnc
+END
+qx-xml.rng
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/apidoc/qx-xml.rng
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/apidoc/readme.txt
+END
+pydoc2qx-xml.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/apidoc/pydoc2qx-xml.xsl
+END
+qx-xml2qx-json.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/apidoc/qx-xml2qx-json.xsl
+END

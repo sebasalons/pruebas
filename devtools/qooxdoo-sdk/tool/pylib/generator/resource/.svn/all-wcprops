@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/generator/resource
+END
+ImageInfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/generator/resource/ImageInfo.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/generator/resource/__init__.py
+END
+AssetHint.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/generator/resource/AssetHint.py
+END
+Image.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/generator/resource/Image.py
+END
+CombinedImage.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/generator/resource/CombinedImage.py
+END
+Library.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/generator/resource/Library.py
+END
+ResourceHandler.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/generator/resource/ResourceHandler.py
+END
+Resource.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/generator/resource/Resource.py
+END
+ImageClipping.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/generator/resource/ImageClipping.py
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/inspector/source/class/inspector/property
+END
+PropertyWindow.js
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/inspector/source/class/inspector/property/PropertyWindow.js
+END
+IPropertyListController.js
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/inspector/source/class/inspector/property/IPropertyListController.js
+END
+IFilter.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/inspector/source/class/inspector/property/IFilter.js
+END
+PropertyList.js
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/inspector/source/class/inspector/property/PropertyList.js
+END
+AbstractPropertyList.js
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/inspector/source/class/inspector/property/AbstractPropertyList.js
+END
+Filter.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/inspector/source/class/inspector/property/Filter.js
+END
+View.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/inspector/source/class/inspector/property/View.js
+END

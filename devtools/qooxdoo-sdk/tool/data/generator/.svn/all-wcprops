@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/generator
+END
+generate.tmpl.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/generator/generate.tmpl.py
+END
+loader.tmpl.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/generator/loader.tmpl.js
+END
+oo.loader.tmpl.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/generator/oo.loader.tmpl.js
+END

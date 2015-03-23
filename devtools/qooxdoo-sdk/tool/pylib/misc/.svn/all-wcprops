@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/util.py
+END
+filetool.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/filetool.py
+END
+textutil.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/textutil.py
+END
+cldr.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/cldr.py
+END
+ExtendAction.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/ExtendAction.py
+END
+imginfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/imginfo.py
+END
+securehash.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/securehash.py
+END
+Path.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/Path.py
+END
+NameSpace.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/NameSpace.py
+END
+PathType.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/PathType.py
+END
+ExtMap.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/ExtMap.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/__init__.py
+END
+Trie.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/Trie.py
+END
+ImmutableClass.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/ImmutableClass.py
+END
+copytool.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/copytool.py
+END
+json.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/misc/json.py
+END

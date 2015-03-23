@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/build.xml
+END
+object.json
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/object.json
+END
+cached-script.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/cached-script.php
+END
+script.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/script.js
+END
+primitive.json
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/primitive.json
+END
+array.json
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/array.json
+END
+jsonp_primitive.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/jsonp_primitive.php
+END
+UnitTestFlash.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/UnitTestFlash.mxml
+END
+UnitTestFlash.swf
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/UnitTestFlash.swf
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/apiviewer/source/class/apiviewer/ui/panels
+END
+PropertyPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/apiviewer/source/class/apiviewer/ui/panels/PropertyPanel.js
+END
+ClassPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/apiviewer/source/class/apiviewer/ui/panels/ClassPanel.js
+END
+ChildControlsPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/apiviewer/source/class/apiviewer/ui/panels/ChildControlsPanel.js
+END
+ConstantPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/apiviewer/source/class/apiviewer/ui/panels/ConstantPanel.js
+END
+InfoPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/apiviewer/source/class/apiviewer/ui/panels/InfoPanel.js
+END
+PackagePanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/apiviewer/source/class/apiviewer/ui/panels/PackagePanel.js
+END
+AppearancePanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/apiviewer/source/class/apiviewer/ui/panels/AppearancePanel.js
+END
+MethodPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/apiviewer/source/class/apiviewer/ui/panels/MethodPanel.js
+END
+EventPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/apiviewer/source/class/apiviewer/ui/panels/EventPanel.js
+END

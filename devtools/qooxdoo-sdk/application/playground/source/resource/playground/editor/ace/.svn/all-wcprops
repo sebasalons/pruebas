@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace
+END
+Selection.js
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/Selection.js
+END
+Editor.js
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/Editor.js
+END
+plugin_manager.js
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/plugin_manager.js
+END
+Range.js
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/Range.js
+END
+UndoManager.js
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/UndoManager.js
+END
+TextInput.js
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/TextInput.js
+END
+Search.js
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/Search.js
+END
+background_tokenizer.js
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/background_tokenizer.js
+END
+RenderLoop.js
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/RenderLoop.js
+END
+event_emitter.js
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/event_emitter.js
+END
+Tokenizer.js
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/Tokenizer.js
+END
+virtual_renderer.js
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/virtual_renderer.js
+END
+Document.js
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/Document.js
+END
+ScrollBar.js
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/ScrollBar.js
+END
+KeyBinding.js
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/application/playground/source/resource/playground/editor/ace/KeyBinding.js
+END

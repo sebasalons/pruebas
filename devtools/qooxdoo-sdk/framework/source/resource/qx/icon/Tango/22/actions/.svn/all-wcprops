@@ -1,0 +1,593 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions
+END
+folder-new.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/folder-new.png
+END
+document-send.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/document-send.png
+END
+media-seek-forward.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/media-seek-forward.png
+END
+list-remove.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/list-remove.png
+END
+go-last.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/go-last.png
+END
+format-justify-fill.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/format-justify-fill.png
+END
+document-print.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/document-print.png
+END
+edit-clear.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/edit-clear.png
+END
+mail-send.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/mail-send.png
+END
+window-close.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/window-close.png
+END
+document-save.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/document-save.png
+END
+go-down.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/go-down.png
+END
+format-indent-less.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/format-indent-less.png
+END
+format-justify-left.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/format-justify-left.png
+END
+edit-redo.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/edit-redo.png
+END
+format-text-italic.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/format-text-italic.png
+END
+go-previous.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/go-previous.png
+END
+dialog-apply.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/dialog-apply.png
+END
+document-revert.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/document-revert.png
+END
+media-skip-forward.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/media-skip-forward.png
+END
+edit-delete.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/edit-delete.png
+END
+format-justify-right.png
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/format-justify-right.png
+END
+format-justify-center.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/format-justify-center.png
+END
+dialog-close.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/dialog-close.png
+END
+object-flip-vertical.png
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/object-flip-vertical.png
+END
+go-top.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/go-top.png
+END
+dialog-ok.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/dialog-ok.png
+END
+document-save-as.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/document-save-as.png
+END
+document-open.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/document-open.png
+END
+object-rotate-right.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/object-rotate-right.png
+END
+mail-mark-junk.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/mail-mark-junk.png
+END
+mail-reply-all.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/mail-reply-all.png
+END
+contact-new.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/contact-new.png
+END
+mail-mark-important.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/mail-mark-important.png
+END
+mail-mark-unread.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/mail-mark-unread.png
+END
+insert-text.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/insert-text.png
+END
+go-up.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/go-up.png
+END
+object-rotate-left.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/object-rotate-left.png
+END
+media-record.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/media-record.png
+END
+go-home.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/go-home.png
+END
+help-faq.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/help-faq.png
+END
+format-text-underline.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/format-text-underline.png
+END
+window-new.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/window-new.png
+END
+zoom-fit-best.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/zoom-fit-best.png
+END
+view-sort-descending.png
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/view-sort-descending.png
+END
+list-add.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/list-add.png
+END
+process-stop.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/process-stop.png
+END
+mail-receive.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/mail-receive.png
+END
+edit-find.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/edit-find.png
+END
+document-new.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/document-new.png
+END
+view-refresh.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/view-refresh.png
+END
+format-indent-more.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/format-indent-more.png
+END
+media-eject.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/media-eject.png
+END
+edit-cut.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/edit-cut.png
+END
+media-playback-pause.png
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/media-playback-pause.png
+END
+dialog-cancel.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/dialog-cancel.png
+END
+mail-forward.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/mail-forward.png
+END
+insert-image.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/insert-image.png
+END
+zoom-original.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/zoom-original.png
+END
+format-text-direction-rtl.png
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/format-text-direction-rtl.png
+END
+format-text-direction-ltr.png
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/format-text-direction-ltr.png
+END
+view-sort-ascending.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/view-sort-ascending.png
+END
+check-spelling.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/check-spelling.png
+END
+format-text-bold.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/format-text-bold.png
+END
+zoom-out.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/zoom-out.png
+END
+go-first.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/go-first.png
+END
+document-open-recent.png
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/document-open-recent.png
+END
+mail-message-new.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/mail-message-new.png
+END
+media-playback-start.png
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/media-playback-start.png
+END
+insert-link.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/insert-link.png
+END
+media-skip-backward.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/media-skip-backward.png
+END
+edit-paste.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/edit-paste.png
+END
+help-about.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/help-about.png
+END
+address-book-new.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/address-book-new.png
+END
+go-bottom.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/go-bottom.png
+END
+document-properties.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/document-properties.png
+END
+edit-select-all.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/edit-select-all.png
+END
+system-log-out.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/system-log-out.png
+END
+view-fullscreen.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/view-fullscreen.png
+END
+format-text-strikethrough.png
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/format-text-strikethrough.png
+END
+application-exit.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/application-exit.png
+END
+media-seek-backward.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/media-seek-backward.png
+END
+go-next.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/go-next.png
+END
+help-contents.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/help-contents.png
+END
+mail-mark-read.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/mail-mark-read.png
+END
+object-flip-horizontal.png
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/object-flip-horizontal.png
+END
+appointment-new.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/appointment-new.png
+END
+system-run.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/system-run.png
+END
+media-playback-stop.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/media-playback-stop.png
+END
+document-print-preview.png
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/document-print-preview.png
+END
+system-search.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/system-search.png
+END
+edit-undo.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/edit-undo.png
+END
+zoom-in.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/zoom-in.png
+END
+mail-reply-sender.png
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/mail-reply-sender.png
+END
+view-restore.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/view-restore.png
+END
+bookmark-new.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/bookmark-new.png
+END
+edit-copy.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/edit-copy.png
+END
+system-shutdown.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/icon/Tango/22/actions/system-shutdown.png
+END

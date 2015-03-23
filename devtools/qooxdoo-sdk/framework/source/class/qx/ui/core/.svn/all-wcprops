@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core
+END
+MMovable.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/MMovable.js
+END
+IMultiSelection.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/IMultiSelection.js
+END
+MSingleSelectionHandling.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/MSingleSelectionHandling.js
+END
+DecoratorFactory.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/DecoratorFactory.js
+END
+MChildrenHandling.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/MChildrenHandling.js
+END
+ISingleSelectionProvider.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/ISingleSelectionProvider.js
+END
+MRemoteLayoutHandling.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/MRemoteLayoutHandling.js
+END
+FocusHandler.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/FocusHandler.js
+END
+Spacer.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/Spacer.js
+END
+MContentPadding.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/MContentPadding.js
+END
+Command.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/Command.js
+END
+EventHandler.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/EventHandler.js
+END
+Blocker.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/Blocker.js
+END
+SingleSelectionManager.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/SingleSelectionManager.js
+END
+MMultiSelectionHandling.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/MMultiSelectionHandling.js
+END
+Widget.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/Widget.js
+END
+MPlacement.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/MPlacement.js
+END
+MRemoteChildrenHandling.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/MRemoteChildrenHandling.js
+END
+ColumnData.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/ColumnData.js
+END
+MNativeOverflow.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/MNativeOverflow.js
+END
+LayoutItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/LayoutItem.js
+END
+MResizable.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/MResizable.js
+END
+MBlocker.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/MBlocker.js
+END
+MExecutable.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/MExecutable.js
+END
+MLayoutHandling.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/MLayoutHandling.js
+END
+__init__.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/__init__.js
+END
+ISingleSelection.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/ISingleSelection.js
+END
+DragDropCursor.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/core/DragDropCursor.js
+END

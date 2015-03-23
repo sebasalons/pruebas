@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/skeleton/gui
+END
+config.tmpl.json
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/skeleton/gui/config.tmpl.json
+END
+Manifest.tmpl.json
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/skeleton/gui/Manifest.tmpl.json
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/skeleton/gui/readme.txt
+END
+generate.tmpl.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/skeleton/gui/generate.tmpl.py
+END

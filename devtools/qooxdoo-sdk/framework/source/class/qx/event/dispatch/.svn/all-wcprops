@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/event/dispatch
+END
+DomBubbling.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/event/dispatch/DomBubbling.js
+END
+AbstractBubbling.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/event/dispatch/AbstractBubbling.js
+END
+Direct.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/event/dispatch/Direct.js
+END
+MouseCapture.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/event/dispatch/MouseCapture.js
+END
+__init__.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/event/dispatch/__init__.js
+END

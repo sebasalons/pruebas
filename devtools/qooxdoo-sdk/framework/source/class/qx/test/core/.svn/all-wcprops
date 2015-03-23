@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/core
+END
+__init__.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/core/__init__.js
+END
+Assert.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/core/Assert.js
+END
+Property.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/core/Property.js
+END
+PropertyHelper.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/core/PropertyHelper.js
+END
+InheritanceDummy.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/core/InheritanceDummy.js
+END
+Object.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/core/Object.js
+END
+Target.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/core/Target.js
+END
+EventEmitterDummy.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/core/EventEmitterDummy.js
+END
+Variants.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/core/Variants.js
+END
+Validation.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/core/Validation.js
+END

@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form
+END
+IRadioItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/IRadioItem.js
+END
+SplitButton.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/SplitButton.js
+END
+SelectBox.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/SelectBox.js
+END
+Resetter.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/Resetter.js
+END
+Form.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/Form.js
+END
+IRange.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/IRange.js
+END
+PasswordField.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/PasswordField.js
+END
+RadioButtonGroup.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/RadioButtonGroup.js
+END
+AbstractField.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/AbstractField.js
+END
+IModel.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/IModel.js
+END
+Button.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/Button.js
+END
+AbstractSelectBox.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/AbstractSelectBox.js
+END
+IBooleanForm.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/IBooleanForm.js
+END
+TextArea.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/TextArea.js
+END
+ToggleButton.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/ToggleButton.js
+END
+Spinner.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/Spinner.js
+END
+HoverButton.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/HoverButton.js
+END
+IModelSelection.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/IModelSelection.js
+END
+MModelProperty.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/MModelProperty.js
+END
+Slider.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/Slider.js
+END
+MModelSelection.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/MModelSelection.js
+END
+CheckBox.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/CheckBox.js
+END
+TextField.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/TextField.js
+END
+RadioButton.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/RadioButton.js
+END
+ListItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/ListItem.js
+END
+IExecutable.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/IExecutable.js
+END
+__init__.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/__init__.js
+END
+MenuButton.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/MenuButton.js
+END
+IStringForm.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/IStringForm.js
+END
+ComboBox.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/ComboBox.js
+END
+IDateForm.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/IDateForm.js
+END
+RadioGroup.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/RadioGroup.js
+END
+List.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/List.js
+END
+IColorForm.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/IColorForm.js
+END
+RepeatButton.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/RepeatButton.js
+END
+IForm.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/IForm.js
+END
+MForm.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/MForm.js
+END
+DateField.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/DateField.js
+END
+INumberForm.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/ui/form/INumberForm.js
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/transform/optimizer
+END
+basecalloptimizer.py
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/transform/optimizer/basecalloptimizer.py
+END
+stringoptimizer.py
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/transform/optimizer/stringoptimizer.py
+END
+protectedoptimizer.py
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/transform/optimizer/protectedoptimizer.py
+END
+privateoptimizer.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/transform/optimizer/privateoptimizer.py
+END
+featureoptimizer.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/transform/optimizer/featureoptimizer.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/transform/optimizer/__init__.py
+END
+inlineoptimizer.py
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/transform/optimizer/inlineoptimizer.py
+END
+propertyoptimizer.py
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/transform/optimizer/propertyoptimizer.py
+END
+variantoptimizer.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/transform/optimizer/variantoptimizer.py
+END
+variableoptimizer.py
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/ecmascript/transform/optimizer/variableoptimizer.py
+END

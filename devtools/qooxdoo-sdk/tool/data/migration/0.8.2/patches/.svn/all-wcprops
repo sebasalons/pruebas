@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/migration/0.8.2/patches
+END
+03-package.dat
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/migration/0.8.2/patches/03-package.dat
+END
+02-type.dat
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/migration/0.8.2/patches/02-type.dat
+END
+01-main.dat
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/migration/0.8.2/patches/01-main.dat
+END
+05-lang.dat
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/migration/0.8.2/patches/05-lang.dat
+END
+04-legacy.dat
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/migration/0.8.2/patches/04-legacy.dat
+END

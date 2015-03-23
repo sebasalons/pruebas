@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/xmlhttp
+END
+404.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/xmlhttp/404.php
+END
+echo_form_request.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/xmlhttp/echo_form_request.php
+END
+php_version.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/xmlhttp/php_version.php
+END
+send_known_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/xmlhttp/send_known_header.php
+END
+echo_get_request.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/xmlhttp/echo_get_request.php
+END
+echo_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/resource/qx/test/xmlhttp/echo_header.php
+END

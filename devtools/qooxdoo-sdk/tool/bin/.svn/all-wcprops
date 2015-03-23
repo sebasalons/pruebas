@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/bin
+END
+compile.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/bin/compile.py
+END
+qxenviron.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/bin/qxenviron.py
+END
+ecmalint.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/bin/ecmalint.py
+END
+checklocales.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/bin/checklocales.py
+END
+create-application.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/bin/create-application.py
+END
+generator_compspec.bash
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/bin/generator_compspec.bash
+END
+migrator.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/bin/migrator.py
+END
+doc__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/bin/doc__init__.py
+END
+generator.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/bin/generator.py
+END
+iconpackager.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/bin/iconpackager.py
+END

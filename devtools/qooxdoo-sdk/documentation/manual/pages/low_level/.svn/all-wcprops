@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/documentation/manual/pages/low_level
+END
+qooxdoo_animation.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/documentation/manual/pages/low_level/qooxdoo_animation.html
+END
+setup_a_low-level_library.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/documentation/manual/pages/low_level/setup_a_low-level_library.html
+END
+back-button_and_bookmark_support.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/documentation/manual/pages/low_level/back-button_and_bookmark_support.html
+END
+focus_layer_impl.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/documentation/manual/pages/low_level/focus_layer_impl.html
+END
+event_layer_impl.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/documentation/manual/pages/low_level/event_layer_impl.html
+END
+html_element_handling.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/documentation/manual/pages/low_level/html_element_handling.html
+END
+low_level_apis.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/documentation/manual/pages/low_level/low_level_apis.html
+END
+image_handling.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/documentation/manual/pages/low_level/image_handling.html
+END

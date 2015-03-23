@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/simplejson
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/simplejson/LICENSE.txt
+END
+scanner.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/simplejson/scanner.py
+END
+tool.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/simplejson/tool.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/simplejson/__init__.py
+END
+encoder.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/simplejson/encoder.py
+END
+jsonfilter.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/simplejson/jsonfilter.py
+END
+decoder.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/simplejson/decoder.py
+END

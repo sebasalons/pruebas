@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/util
+END
+DateFormat.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/util/DateFormat.js
+END
+DateMock.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/util/DateMock.js
+END
+Json.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/util/Json.js
+END
+Serializer.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/util/Serializer.js
+END
+Validate.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/util/Validate.js
+END
+Delegate.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/util/Delegate.js
+END
+Template.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/util/Template.js
+END
+ColorUtil.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/util/ColorUtil.js
+END
+DeferredCall.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/util/DeferredCall.js
+END
+__init__.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/util/__init__.js
+END
+NumberFormat.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/util/NumberFormat.js
+END
+PropertyUtil.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/util/PropertyUtil.js
+END
+ResourceManager.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/util/ResourceManager.js
+END
+StringSplit.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/framework/source/class/qx/test/util/StringSplit.js
+END

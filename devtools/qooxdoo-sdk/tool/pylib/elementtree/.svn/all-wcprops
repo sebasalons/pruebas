@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/elementtree
+END
+SimpleXMLTreeBuilder.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/elementtree/SimpleXMLTreeBuilder.py
+END
+TidyHTMLTreeBuilder.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/elementtree/TidyHTMLTreeBuilder.py
+END
+ElementPath.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/elementtree/ElementPath.py
+END
+SimpleXMLWriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/elementtree/SimpleXMLWriter.py
+END
+XMLTreeBuilder.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/elementtree/XMLTreeBuilder.py
+END
+ElementTree.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/elementtree/ElementTree.py
+END
+SgmlopXMLTreeBuilder.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/elementtree/SgmlopXMLTreeBuilder.py
+END
+TidyTools.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/elementtree/TidyTools.py
+END
+HTMLTreeBuilder.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/elementtree/HTMLTreeBuilder.py
+END
+ElementInclude.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/elementtree/ElementInclude.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/pylib/elementtree/__init__.py
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/inspector/source/resource/inspector/images/shell
+END
+warningIcon.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/inspector/source/resource/inspector/images/shell/warningIcon.png
+END
+errorIcon.png
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/inspector/source/resource/inspector/images/shell/errorIcon.png
+END
+infoIcon.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/component/inspector/source/resource/inspector/images/shell/infoIcon.png
+END

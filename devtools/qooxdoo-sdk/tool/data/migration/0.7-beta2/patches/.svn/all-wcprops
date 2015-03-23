@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/migration/0.7-beta2/patches
+END
+02-resizable.dat
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/migration/0.7-beta2/patches/02-resizable.dat
+END
+05-settings.dat
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/migration/0.7-beta2/patches/05-settings.dat
+END
+01-apply.dat
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/migration/0.7-beta2/patches/01-apply.dat
+END
+03-rename.dat
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/migration/0.7-beta2/patches/03-rename.dat
+END
+04-alias.dat
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/migration/0.7-beta2/patches/04-alias.dat
+END

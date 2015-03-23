@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/migration/0.7-beta1
+END
+patch.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/migration/0.7-beta1/patch.py
+END
+theme_07.patch
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/eICUB2/!svn/ver/700/devtools/qooxdoo-sdk/tool/data/migration/0.7-beta1/theme_07.patch
+END
