@@ -34,7 +34,7 @@ Tutorial eyeOS 2.5 OpenSource & CloudSpaces
 
 +   **Apache HTTP Server**
 
-    \# apt-get install apache2  
+    \# <b>apt-get</b> install apache2  
     \# apache2 -version  
 
     ![](img/apache2_version.jpg)
