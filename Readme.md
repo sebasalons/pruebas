@@ -5,7 +5,7 @@ Tutorial eyeOS 2.5 OpenSource & CloudSpaces
 
 **Table contents**
 
-- [eyeOS 2.5 installation on Ubuntu](#eyeos-2.5-installation-on-ubuntu)
+- [eyeOS 2.5 installation on Ubuntu](#eyeos-25-installation-on-ubuntu)
     - [Requeriments](#requeriments)
     - [eyeOS installation](#eyeos-installation)
     - [API Sync installation](#APISync-installation)
@@ -30,7 +30,7 @@ Tutorial eyeOS 2.5 OpenSource & CloudSpaces
       - [ANNEX 4.Storage Manager](#annex-store-manager)
       - [ANNEX 5. Storage API](#annex-storage-API)
 
-## eyeOS 2.5 installation on Ubuntu
+## eyeOS 25 installation on Ubuntu
 
 ### Requeriments
 
