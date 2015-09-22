@@ -1,36 +1,34 @@
 Tutorial eyeOS 2.5 OpenSource & CloudSpaces
 =====================================================================================
 
-[a relative link](Readme.md)
-
 **Table contents**
 
--  &nbsp;&nbsp;[eyeOS 2.5 installation on Ubuntu](#eyeos-2\.5-installation-on-ubuntu)
+- [eyeOS Open Source installation on Ubuntu](#eyeos-open-source-installation-on-ubuntu)
     - [Requeriments](#requeriments)
     - [eyeOS installation](#eyeos-installation)
-    - [API Sync installation](#APISync-installation)
+    - [API Sync installation](#api-sync-installation)
 - [eyeOS Platform](#eyeos-platform)
     - [Introduction](#introduction)
-    - [eyeOS integration with Personal Clouds](#eyeos-integration)
+    - [eyeOS integration with Personal Clouds](#eyeos-integration-with-personal-clouds)
       - [Integration](#integration)
-      - [Authorization and authentication (log in/out)](#authorization)
-      - [Storage API](#storage-API)
-    - [Personal Clouds and eyeOS interoperability](#eyeos-interoperability)
-      - [Implementation](#implementation-interoperability)
-      - [Examples](#examples-interoperability)
-    - [Collaborative editing tool](#collaborative-tool)
-    - [Replacement U1DB to API](#replacement-U1DB)
-      - [Implementation](#implementation-replacement)
+      - [Authorization and authentication ](#authorization-and-authentication)
+      - [Storage API](#storage-api)
+    - [Personal Clouds and eyeOS interoperability](personal- clouds-and-eyeos-interoperability)
+      - [Implementation interoperability ](#implementation-interoperability)
+      - [Examples](#examples)
+    - [Collaborative editing tool](#collaborative-editing-tool)
+    - [Replacement U1DB to API](#replacement-u1db-to-api)
+      - [Implementation](#implementation)
       - [Comments](#comments)
       - [Calendar](#calendar)
     - [ANNEXES](#annexes)
-      - [ANNEX 1. Configuration file](#annex-configuration-file)
-      - [ANNEX 2. Oauth Manager](#annex-oauth-manager)
-      - [ANNEX 3. Oauth API](#annex-oauth-API)
-      - [ANNEX 4.Storage Manager](#annex-store-manager)
-      - [ANNEX 5. Storage API](#annex-storage-API)
+      - [ANNEX 1 Configuration file](#annex-1-configuration-file)
+      - [ANNEX 2 Oauth Manager](#annex-2-oauth-manager)
+      - [ANNEX 3 Oauth API](#annex-3-oauth-api)
+      - [ANNEX 4 Storage Manager](#annex-4-storage-manager)
+      - [ANNEX 5 Storage API](annex-5-storage-api)
 
-## eyeOS 2.5 installation on Ubuntu
+## eyeOS Open Source installation on Ubuntu
 
 ### Requeriments
 
@@ -41,7 +39,7 @@ Tutorial eyeOS 2.5 OpenSource & CloudSpaces
 
     ![](img/apache2_version.jpg)
 
-    <b>Type in the navegation bar of the browser http://localhost, and you'll see apache2 page (It works!)</b>
+    Type in the navegation bar of the browser http://localhost, and you'll see apache2 page (It works!)  
 
     ![](img/navegador_apache.jpg)
 
@@ -347,7 +345,7 @@ Once the user is in Cloudspaces they can access their protected data by selectin
 specific and existing cloud in the clouds configuration of eyeOS (see annex 1) which is
 listed in the “Clouds” tab to configure access.
 
-#### Authorization and authentication (log in/out)
+#### Authorization and authentication
 
 The eyeOS platform integrates the OAuth authorization to interact with the user‟s
 protected data stored in the Personal Cloud. OAuth is an authorization protocol which
@@ -541,7 +539,7 @@ allow the user to carry out different actions in their files.
 
 ### Personal Clouds and eyeOS interoperability
 
-#### Implementation
+#### Implementation interoperability
 
 The eyeOS platform provides access to multiple clouds as well as interoperability
 between them, both in a private and public environment.
@@ -1305,7 +1303,7 @@ connect. The constant is *API_SYNC*.
 
 ### ANNEXES
 
-#### ANNEX 1. Configuration file
+#### ANNEX 1 Configuration file
 
 The cloud configuration file is found at the
 address “/var/www/eyeos/eyeos/extern/u1db/” and is called “settings.py”.
@@ -1368,7 +1366,7 @@ case “Stacksync” or “NEC”:
   </tr>
 </table>
 
-#### ANNEX 2. Oauth Manager
+#### ANNEX 2 Oauth Manager
 
 **getRequestToken**(cloud)
 
@@ -1445,7 +1443,7 @@ request token.
   </tr>
 </table>
 
-#### ANNEX 3. Oauth API
+#### ANNEX 3 Oauth API
 
 The configuration file of the Oauth API is detailed in Annex 1.
 
@@ -1529,7 +1527,7 @@ Request the Access token of the eyeOS consumer from the saved request token.
   </tr>
 </table>
 
-#### ANNEX 4.Storage Manager
+#### ANNEX 4 Storage Manager
 
 **getMetadata**(cloud, token, id, path, user, resourceUrl)
 
@@ -3246,7 +3244,7 @@ Obtain the file structure of a file in the cloud.
   </tr>
 </table>
 
-#### ANNEX 5. Storage API
+#### ANNEX 5 Storage API
 
 The configuration file of the Storage API is detailed in Annex 1.
 
