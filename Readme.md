@@ -41,7 +41,7 @@ Tutorial eyeOS 2.5 OpenSource & CloudSpaces
 
     ![](img/apache2_version.jpg)
 
-    Type in the navegation bar of the browser http://localhost, and you'll see apache2 page (It works!)  
+    <b>Type in the navegation bar of the browser http://localhost, and you'll see apache2 page (It works!)</b>
 
     ![](img/navegador_apache.jpg)
 
