@@ -5208,7 +5208,7 @@ addition to the accesstoken.
     <td>GET</td>
   </tr>
   <tr>
-    <td bgcolor="#C0C0C0">Return:</td>
+    <td style="color:green">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure:</span><br>
       <span style="margin-left:30px">- error: Error number</span><br>
