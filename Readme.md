@@ -13,7 +13,7 @@ Tutorial eyeOS 2.5 OpenSource & CloudSpaces
       - [Integration](#integration)
       - [Authorization and authentication ](#authorization-and-authentication)
       - [Storage API](#storage-api)
-    - [Personal Clouds and eyeOS interoperability](#personal- clouds-and-eyeos-interoperability)
+    - [Personal Clouds and eyeOS interoperability](#personal-clouds-and-eyeos-interoperability)
       - [Implementation interoperability ](#implementation-interoperability)
       - [Examples](#examples)
     - [Collaborative editing tool](#collaborative-editing-tool)
