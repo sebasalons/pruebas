@@ -1,6 +1,8 @@
 Tutorial eyeOS 2.5 OpenSource & CloudSpaces
 =====================================================================================
 
+[a relative link](Readme.md)
+
 **Table contents**
 
 - [eyeOS 2.5 installation on Ubuntu](#eyeos-2.5-installation-on-ubuntu)
