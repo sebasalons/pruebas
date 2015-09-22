@@ -26,7 +26,7 @@ Tutorial eyeOS 2.5 OpenSource & CloudSpaces
       - [ANNEX 2 Oauth Manager](#annex-2-oauth-manager)
       - [ANNEX 3 Oauth API](#annex-3-oauth-api)
       - [ANNEX 4 Storage Manager](#annex-4-storage-manager)
-      - [ANNEX 5 Storage API](annex-5-storage-api)
+      - [ANNEX 5 Storage API](#annex-5-storage-api)
 
 ## eyeOS Open Source installation on Ubuntu
 
