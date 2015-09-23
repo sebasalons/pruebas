@@ -1375,9 +1375,9 @@ Request the request token from a specific cloud for the eyeOS consumer.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: {</span><br>
-      <span style="margin-left:110px">“cloud”: “Stacksync”</span><br>
-      <span style="margin-left:90px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -1387,8 +1387,8 @@ Request the request token from a specific cloud for the eyeOS consumer.
       <span>Token object or null in case of error.</span><br>
       <span>Example:</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“key” : “token1234”,</span><br>
-      <span style="margin-left:30px">“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“key” : “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
       <span>}</span>
     </td>
   </tr>
@@ -1415,11 +1415,11 @@ request token.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“token” : { </span><br>
-      <span style="margin-left:110px">“key”: “token1234”,</span><br>
-      <span style="margin-left:110px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“verifier”: “userVerified”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token” : { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“verifier”: “userVerified”</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -1429,8 +1429,8 @@ request token.
       <span>Token object or null in case of error.</span><br>
       <span>Example:</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“key” : “access1234”,</span><br>
-      <span style="margin-left:30px">“secret”: “access1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“key” : “access1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “access1234”</span><br>
       <span>}</span>
     </td>
   </tr>
@@ -1465,16 +1465,16 @@ Request the request token of the eyeOS consumer.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Key and secret of the request token or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“oauth_token” : “token1234”,</span><br>
-      <span style="margin-left:30px">“oauth_token_secret” : “secret1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“oauth_token” : “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“oauth_token_secret” : “secret1234”,</span><br>
       <span>}</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“error” : “401”,</span><br>
-      <span style="margin-left:30px">“description” : “Authorization required”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“error” : “401”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“description” : “Authorization required”</span><br>
       <span>}</span>
     </td>
   </tr>
@@ -1505,16 +1505,16 @@ Request the Access token of the eyeOS consumer from the saved request token.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Key and secret of the access token or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“oauth_token” : “token1234”,</span><br>
-      <span style="margin-left:30px">“oauth_token_secret” : “secret1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“oauth_token” : “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“oauth_token_secret” : “secret1234”,</span><br>
       <span>}</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“error” : “401”,</span><br>
-      <span style="margin-left:30px">“description” : “Authorization required”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“error” : “401”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“description” : “Authorization required”</span><br>
       <span>}</span>
     </td>
   </tr>
@@ -1546,20 +1546,20 @@ directories in eyeOS.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “get”,</span><br>
-      <span style="margin-left:120px">“file”: false,</span><br>
-      <span style="margin-left:120px">“id”: “1653”,</span><br>
-      <span style="margin-left:120px">“contents”: true</span><br>
-      <span style="margin-left:110px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “get”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“file”: false,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: “1653”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“contents”: true</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -1567,33 +1567,33 @@ directories in eyeOS.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
       <span>Example:</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“status”: “NEW”,</span><br>
-      <span style="margin-left:30px">“mimetype”: “index/directory”,</span><br>
-      <span style="margin-left:30px">“checknum”: 0,</span><br>
-      <span style="margin-left:30px">“modified_at”: “2015-04-07 16:08:52.449”,</span><br>
-      <span style="margin-left:30px">"filename": "Test_B1",</span><br>
-      <span style="margin-left:30px">"is_root”: false,</span><br>
-      <span style="margin-left:30px">“parent_id”: “null”,</span><br>
-      <span style="margin-left:30px">“version”: 1,</span><br>
-      <span style="margin-left:30px">“is_folder”: true,</span><br>
-      <span style="margin-left:30px">"id": 1653,</span><br>
-      <span style="margin-left:30px">“size”: 0,</span><br>
-      <span style="margin-left:30px">"contents":[{</span><br>
-      <span style="margin-left:90px">"status": "NEW",</span><br>
-      <span style="margin-left:90px">“mimetype”: “inode/directory”,</span><br>
-      <span style="margin-left:90px">“checksum”: 0,</span><br>
-      <span style="margin-left:90px">“modified_at”: “2015-04-07 16:08:53.397”,</span><br>
-      <span style="margin-left:90px">“filename”: “AAA”,</span><br>
-      <span style="margin-left:90px">“is_root”: false,</span><br>
-      <span style="margin-left:90px">"parent_id": 1653,</span><br>
-      <span style="margin-left:90px">"version": 1,</span><br>
-      <span style="margin-left:90px">"is_folder": true,</span><br>
-      <span style="margin-left:90px">"id": 1654,</span><br>
-      <span style="margin-left:90px">"size":0</span><br>
-      <span style="margin-left:98px">}]</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“status”: “NEW”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“mimetype”: “index/directory”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“checknum”: 0,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“modified_at”: “2015-04-07 16:08:52.449”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"filename": "Test_B1",</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"is_root”: false,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“parent_id”: “null”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“version”: 1,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“is_folder”: true,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"id": 1653,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“size”: 0,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"contents":[{</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"status": "NEW",</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“mimetype”: “inode/directory”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“checksum”: 0,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“modified_at”: “2015-04-07 16:08:53.397”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“filename”: “AAA”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“is_root”: false,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"parent_id": 1653,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"version": 1,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"is_folder": true,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id": 1654,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"size":0</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}]</span><br>
       <span>}</span><br><br>
       <span>{“error”: 401}</span>
     </td>
@@ -1627,20 +1627,20 @@ action of copying and moving in eyeOS.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “get”,</span><br>
-      <span style="margin-left:120px">“file”: false,</span><br>
-      <span style="margin-left:120px">“id”: “1653”,</span><br>
-      <span style="margin-left:120px">“contents”: true</span><br>
-      <span style="margin-left:110px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “get”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“file”: false,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: “1653”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“contents”: true</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -1648,41 +1648,41 @@ action of copying and moving in eyeOS.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata vector or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
       <span>Example:</span><br>
       <span>[{</span><br>
-      <span style="margin-left:30px">"status": "NEW",</span><br>
-      <span style="margin-left:30px">“mimetype”: “inode/pdf”,</span><br>
-      <span style="margin-left:30px">“checksum”: 2230714779,</span><br>
-      <span style="margin-left:30px">“modified_at”: “2015-03-27 16:46:33.243”</span><br>
-      <span style="margin-left:30px">“filename”: “chicken.pdf”,</span><br>
-      <span style="margin-left:30px">"parent_id": 1653,</span><br>
-      <span style="margin-left:30px">"version": 1,</span><br>
-      <span style="margin-left:30px">"is_folder": false,</span><br>
-      <span style="margin-left:30px">“chunks”: [],</span><br>
-      <span style="margin-left:30px">"id": 1654,</span><br>
-      <span style="margin-left:30px">"size": 51500,</span><br>
-      <span style="margin-left:30px">“pathAbsolute”:
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"status": "NEW",</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“mimetype”: “inode/pdf”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“checksum”: 2230714779,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“modified_at”: “2015-03-27 16:46:33.243”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“filename”: “chicken.pdf”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"parent_id": 1653,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"version": 1,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"is_folder": false,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“chunks”: [],</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"id": 1654,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"size": 51500,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“pathAbsolute”:
 “/var/www/eyeos/Stacksync/Test_B1/chicken.pdf”,</span><br>
-      <span style="margin-left:30px">“path”: “/Test_B1/”,</span><br>
-      <span style="margin-left:30px">“pathEyeos”: “home://~/Stacksync/Test_B1/chicken.pdf”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“path”: “/Test_B1/”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“pathEyeos”: “home://~/Stacksync/Test_B1/chicken.pdf”</span><br>
       <span>},<br>
       <span>{</span><br>
-      <span style="margin-left:30px">“status”: “NEW”,</span><br>
-      <span style="margin-left:30px">“mimetype”: “index/directory”,</span><br>
-      <span style="margin-left:30px">“checknum”: 0,</span><br>
-      <span style="margin-left:30px">“modified_at”: “2015-04-07 16:08:52.449”,</span><br>
-      <span style="margin-left:30px">"filename": "Test_B1",</span><br>
-      <span style="margin-left:30px">“is_root”: false,</span><br>
-      <span style="margin-left:30px">“parent_id”: “null”,</span><br>
-      <span style="margin-left:30px">“version”: 1,</span><br>
-      <span style="margin-left:30px">“is_folder”: true,</span><br>
-      <span style="margin-left:30px">"id": 1653,</span><br>
-      <span style="margin-left:30px">“size”: 0,</span><br>
-      <span style="margin-left:30px">“pathAbsolute”:
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“status”: “NEW”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“mimetype”: “index/directory”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“checknum”: 0,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“modified_at”: “2015-04-07 16:08:52.449”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"filename": "Test_B1",</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“is_root”: false,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“parent_id”: “null”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“version”: 1,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“is_folder”: true,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"id": 1653,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“size”: 0,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“pathAbsolute”:
 “/var/www/eyeos/a/Cloudspaces/Stacksync/Test_B1”,</span><br>
-    <span style="margin-left:30px">“path”: “/”,</span><br>
-    <span style="margin-left:30px">“pathEyeos”: “home://~/Cloudspaces/Stacksync/Test_B1”</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;“path”: “/”,</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;“pathEyeos”: “home://~/Cloudspaces/Stacksync/Test_B1”</span><br>
     <span>}]</span><br><br>
     <span>{“error”: 401}
     </td>
@@ -1716,22 +1716,22 @@ Create a new file or directory.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “create”,</span><br>
-      <span style="margin-left:120px">“file”: true,</span><br>
-      <span style="margin-left:120px">“filename”: “File_1.txt”,</span><br>
-      <span style="margin-left:120px">“parent_id”: “1653”,</span><br>
-      <span style="margin-left:120px">“path”:
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “create”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“file”: true,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“filename”: “File_1.txt”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“parent_id”: “1653”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“path”:
 ”/var/www/eyeos/../Stacksync/Test_B1/File_1.txt”</span><br>
-      <span style="margin-left:110px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -1739,8 +1739,8 @@ Create a new file or directory.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Structure of the result:</span><br>
-      <span style="margin-left:30px">- status. "OK" if correct "KO" in case of an error.</span><br>
-      <span style="margin-left:30px">- error: Error number. Only exists in case of an error.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- status. "OK" if correct "KO" in case of an error.</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number. Only exists in case of an error.</span><br><br>
       <span>Example:</span><br>
       <span>{"status": "OK" }</span><br>
       <span>{ “status”: “KO”, “error”: 401}
@@ -1772,19 +1772,19 @@ Download the content of a file.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “download”,</span><br>
-      <span style="margin-left:120px">“id”: 32565632111,</span><br>
-      <span style="margin-left:120px">“path”: “/home/eyeos/Documents/Client.pdf”</span><br>
-      <span style="margin-left:110px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “download”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: 32565632111,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“path”: “/home/eyeos/Documents/Client.pdf”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -1792,8 +1792,8 @@ Download the content of a file.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Structure of the result:</span><br>
-      <span style="margin-left:30px">- status. "OK" if correct "KO" in case of an error.</span><br>
-      <span style="margin-left:30px">- error: Error number. Only exists in case of an error.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- status. "OK" if correct "KO" in case of an error.</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number. Only exists in case of an error.</span><br><br>
       <span>Example:</span><br>
       <span>{"status": "OK" }</span><br>
       <span>{ “status”: “KO”, “error”: -1}</span>
@@ -1825,19 +1825,19 @@ Delete an existing file or directory.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “delete”,</span><br>
-      <span style="margin-left:120px">“file”: true,</span><br>
-      <span style="margin-left:120px">“id”: 32565632111</span><br>
-      <span style="margin-left:110px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “delete”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“file”: true,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: 32565632111</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -1845,8 +1845,8 @@ Delete an existing file or directory.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Structure of the result:</span><br>
-      <span style="margin-left:30px">- status. "OK" if correct "KO" in case of an error.</span><br>
-      <span style="margin-left:30px">- error: Error number. Only exists in case of an error.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- status. "OK" if correct "KO" in case of an error.</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number. Only exists in case of an error.</span><br><br>
       <span>Example:</span><br>
       <span>{"status": "OK" }</span><br>
       <span>{ “status”: “KO”, “error”: -1}</span>
@@ -1880,21 +1880,21 @@ Rename a file or directory.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “update”,</span><br>
-      <span style="margin-left:120px">“file”: true,</span><br>
-      <span style="margin-left:120px">“id”: 32565632156,</span><br>
-      <span style="margin-left:120px">“filename”: “Client2.pdf”,</span><br>
-      <span style="margin-left:120px">“parent_id”: 155241412</span><br>
-      <span style="margin-left:110px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “update”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“file”: true,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: 32565632156,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“filename”: “Client2.pdf”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“parent_id”: 155241412</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -1902,8 +1902,8 @@ Rename a file or directory.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Structure of the result:</span><br>
-      <span style="margin-left:30px">- status. "OK" if correct "KO" in case of an error.</span><br>
-      <span style="margin-left:30px">- error: Error number. Only exists in case of an error.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;- status. "OK" if correct "KO" in case of an error.</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number. Only exists in case of an error.</span><br><br>
       <span>Example:</span><br>
       <span>{"status": "OK" }</span><br>
       <span>{ “status”: “KO”, “error”: -1}</span>
@@ -1940,21 +1940,21 @@ Move a file or directory.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “update”,</span><br>
-      <span style="margin-left:120px">“file”: true,</span><br>
-      <span style="margin-left:120px">“id”: 32565632156,</span><br>
-      <span style="margin-left:120px">“filename”: “Client2.pdf”,</span><br>
-      <span style="margin-left:120px">“parent_id”: “null”</span><br>
-      <span style="margin-left:110px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “update”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“file”: true,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: 32565632156,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“filename”: “Client2.pdf”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“parent_id”: “null”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -1962,8 +1962,8 @@ Move a file or directory.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Structure of the result:</span><br>
-      <span style="margin-left:30px">- status. "OK" if correct "KO" in case of an error.</span><br>
-      <span style="margin-left:30px">- error: Error number. Only exists in case of an error.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- status. "OK" if correct "KO" in case of an error.</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number. Only exists in case of an error.</span><br><br>
       <span>Example:</span><br>
       <span>{"status": "OK" }</span><br>
       <span>{ “status”: “KO”, “error”: -1}</span>
@@ -1993,18 +1993,18 @@ Obtain the list of versions of a specific file.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “listVersions”,</span><br>
-      <span style="margin-left:120px">“id”: 32565632156</span><br>
-      <span style="margin-left:110px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span">&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “listVersions”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: 32565632156</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2012,7 +2012,7 @@ Obtain the list of versions of a specific file.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
       <span>Examples:</span><br>
       <span>{"status": "CHANGED", "mimetype": "text/plain", "versions": [{"status":
 "CHANGED", "mimetype": "text/plain", "checksum": 2499810342,
@@ -2060,20 +2060,20 @@ Download the content of a specific version of an existing file.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “getFileVersion”,</span><br>
-      <span style="margin-left:120px">“id”: 32565632156,</span><br>
-      <span style="margin-left:120px">“version”: 2,</span><br>
-      <span style="margin-left:120px">“path”: “/home/eyeos/welcome.pdf”</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “getFileVersion”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: 32565632156,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“version”: 2,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“path”: “/home/eyeos/welcome.pdf”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2081,8 +2081,8 @@ Download the content of a specific version of an existing file.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Structure of the result.</span><br>
-      <span style="margin-left:30px">- status. "OK" if correct "KO" in case of an error.</span><br>
-      <span style="margin-left:30px">- error: Error number. Only exists in case of an error.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- status. "OK" if correct "KO" in case of an error.</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number. Only exists in case of an error.</span><br><br>
       <span>Example:</span><br>
       <span>{ “status”: “OK”}</span><br>
       <span>{ “status”: “KO”, “error”: -1}</span>
@@ -2111,18 +2111,18 @@ Obtain the list of users who share the directory.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “listUsersShare”,</span><br>
-      <span style="margin-left:120px">“id”: 32565632156</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “listUsersShare”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: 32565632156</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2130,7 +2130,7 @@ Obtain the list of users who share the directory.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata vector or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
       <span>Examples:</span><br>
       <span>[{"joined_at": "2014-05-27", "is_owner": true, "name": "tester1", "email":
 "tester1@test.com"}]</span><br><br>
@@ -2162,20 +2162,20 @@ Share or stop sharing a directory with a list of users.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">"type":"shareFolder",</span><br>
-      <span style="margin-left:120px">“id”: 32565632156,</span><br>
-      <span style="margin-left:120px">"list":["a@a.com","b@b.com"],</span><br>
-      <span style="margin-left:120px">"shared":false</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":"shareFolder",</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: 32565632156,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"list":["a@a.com","b@b.com"],</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"shared":false</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2183,8 +2183,8 @@ Share or stop sharing a directory with a list of users.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Structure of the result.</span><br>
-      <span style="margin-left:30px">- status. "OK" if correct "KO" in case of an error.</span><br>
-      <span style="margin-left:30px">- error: Error number. Only exists in case of an error.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- status. "OK" if correct "KO" in case of an error.</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number. Only exists in case of an error.</span><br><br>
 
       <span>Example:</span><br>
       <span>{ “status”: “OK”}</span><br>
@@ -2216,20 +2216,20 @@ Create a new comment associated to a file shared on the cloud.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “insertComment”,</span><br>
-      <span style="margin-left:120px">“id”: “2401”,</span><br>
-      <span style="margin-left:120px">“user”: “tester1”,</span><br>
-      <span style="margin-left:120px">“text”: “Test coments”</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “insertComment”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: “2401”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“user”: “tester1”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“text”: “Test coments”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2237,7 +2237,7 @@ Create a new comment associated to a file shared on the cloud.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>{“id”: “2401”,“user”: “tester1”,”text”:”Test comments”, ”cloud”: ”Stacksync, ”status”:”NEW”, ”time_created”:”201506101548”}</span><br><br>
@@ -2269,20 +2269,20 @@ Delete a comment associated to a file shared on the cloud.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “deleteComment”,</span><br>
-      <span style="margin-left:120px">“id”: “2401”,</span><br>
-      <span style="margin-left:120px">“user”: “tester1”,</span><br>
-      <span style="margin-left:120px">“time_created”: “ 201506101548”</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “deleteComment”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: “2401”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“user”: “tester1”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“time_created”: “ 201506101548”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2290,7 +2290,7 @@ Delete a comment associated to a file shared on the cloud.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>{“id”: “2401”, “user”: “tester1”, ”text”: ”Test comments”, ”cloud”: ”NEC”,
@@ -2321,18 +2321,18 @@ Obtain a list of comments associated to a file shared on the cloud
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “getComments”,</span><br>
-      <span style="margin-left:120px">“id”: “2401”,</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “getComments”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: “2401”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2340,7 +2340,7 @@ Obtain a list of comments associated to a file shared on the cloud
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>[{“id”: “2401”, “user”:“tester1”, ”text”:”Test comments”, ”cloud”:”Stacksync”,
@@ -2383,29 +2383,29 @@ Create a new event in the calendar.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “insertEvent”,</span><br>
-      <span style="margin-left:120px">“user”: “eyeos”,</span><br>
-      <span style="margin-left:120px">“calendar”: “personal”,</span><br>
-      <span style="margin-left:120px">“isallday”: 0,</span><br>
-      <span style="margin-left:120px">“timestart”: “201419160000”,</span><br>
-      <span style="margin-left:120px">“timeend: “201419170000”,</span><br>
-      <span style="margin-left:120px">“repetition”: “null”,</span><br>
-      <span style="margin-left:120px">“finaltype”: “1”,</span><br>
-      <span style="margin-left:120px">“finalvalue”: “0”,</span><br>
-      <span style="margin-left:120px">“subject”: “test”,</span><br>
-      <span style="margin-left:120px">“location”: “Barcelona”,</span><br>
-      <span style="margin-left:120px">“description”: “detail”,</span><br>
-      <span style="margin-left:120px">“repeattype”: “n”</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “insertEvent”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“user”: “eyeos”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“calendar”: “personal”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“isallday”: 0,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“timestart”: “201419160000”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“timeend: “201419170000”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“repetition”: “null”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“finaltype”: “1”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“finalvalue”: “0”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“subject”: “test”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“location”: “Barcelona”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“description”: “detail”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“repeattype”: “n”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2413,7 +2413,7 @@ Create a new event in the calendar.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>{“user”:”eyeos”, ”calendar”:”personal”, ”isallday”:0,
@@ -2451,23 +2451,22 @@ Delete an event from the calendar.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “deleteEvent”,</span><br>
-      <span style="margin-left:120px">“user”: “eyeos”,</span><br>
-      <span style="margin-left:120px">“calendar”: “personal”,</span><br>
-      <span style="margin-left:120px">“timestart”: “201419160000”,</span><br>
-      <span style="margin-left:120px">“timeend: “201419170000”,</span><br>
-      <span style="margin-left:120px">“isallday”: 0,</span><br>
-
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “deleteEvent”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“user”: “eyeos”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“calendar”: “personal”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“timestart”: “201419160000”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“timeend: “201419170000”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“isallday”: 0,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2475,7 +2474,7 @@ Delete an event from the calendar.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>{“user”:”eyeos”, ”calendar”:”personal”, ”isallday”:0,
@@ -2521,29 +2520,29 @@ Update the event data in the calendar.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “updateEvent”,</span><br>
-      <span style="margin-left:120px">“user”: “eyeos”,</span><br>
-      <span style="margin-left:120px">“calendar”: “personal”,</span><br>
-      <span style="margin-left:120px">“isallday”: 0,</span><br>
-      <span style="margin-left:120px">“timestart”: “201419160000”,</span><br>
-      <span style="margin-left:120px">“timeend: “201419170000”,</span><br>
-      <span style="margin-left:120px">“repetition”: “null”,</span><br>
-      <span style="margin-left:120px">“finaltype”: “1”,</span><br>
-      <span style="margin-left:120px">“finalvalue”: “0”,</span><br>
-      <span style="margin-left:120px">“subject”: “test”,</span><br>
-      <span style="margin-left:120px">“location”: “Barcelona”,</span><br>
-      <span style="margin-left:120px">“description”: “detail”,</span><br>
-      <span style="margin-left:120px">“repeattype”: “n”</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “updateEvent”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“user”: “eyeos”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“calendar”: “personal”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“isallday”: 0,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“timestart”: “201419160000”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“timeend: “201419170000”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“repetition”: “null”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“finaltype”: “1”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“finalvalue”: “0”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“subject”: “test”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“location”: “Barcelona”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“description”: “detail”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“repeattype”: “n”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2551,7 +2550,7 @@ Update the event data in the calendar.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>{“user”:”eyeos”, ”calendar”:”personal”, ”isallday”:0,
@@ -2586,20 +2585,19 @@ Obtain all the events from a calendar.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “getEvents”,</span><br>
-      <span style="margin-left:120px">“user”: “eyeos”,</span><br>
-      <span style="margin-left:120px">“calendar”: “personal”,</span><br>
-
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “getEvents”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“user”: “eyeos”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“calendar”: “personal”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2607,7 +2605,7 @@ Obtain all the events from a calendar.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>[{“user”:”eyeos”, ”calendar”:”personal”, ”isallday”:0,
@@ -2644,21 +2642,21 @@ Create a new calendar.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “insertCalendar”,</span><br>
-      <span style="margin-left:120px">“user”: “eyeos”,</span><br>
-      <span style="margin-left:120px">“name”: “personal”,</span><br>
-      <span style="margin-left:120px">“description”:”detail”,</span><br>
-      <span style="margin-left:120px">“timezone”:”0”</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “insertCalendar”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“user”: “eyeos”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“name”: “personal”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“description”:”detail”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“timezone”:”0”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2666,7 +2664,7 @@ Create a new calendar.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>{“user”:”eyeos”, ”name”:”personal”, ”description”:”detail”, ”timezone”:”0”,
@@ -2699,19 +2697,19 @@ Delete a calendar.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “deleteCalendar”,</span><br>
-      <span style="margin-left:120px">“user”: “eyeos”,</span><br>
-      <span style="margin-left:120px">“name”: “personal”,</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “deleteCalendar”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“user”: “eyeos”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“name”: “personal”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2719,7 +2717,7 @@ Delete a calendar.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>{“user”:”eyeos”, ”name”:”personal”, ”description”:”detail”, ”timezone”:”0”,
@@ -2753,21 +2751,21 @@ Update calendar data.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “updateCalendar”,</span><br>
-      <span style="margin-left:120px">“user”: “eyeos”,</span><br>
-      <span style="margin-left:120px">“name”: “personal”,</span><br>
-      <span style="margin-left:120px">“description”:”detail”,</span><br>
-      <span style="margin-left:120px">“timezone”:”0”</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “updateCalendar”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“user”: “eyeos”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“name”: “personal”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“description”:”detail”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“timezone”:”0”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2775,7 +2773,7 @@ Update calendar data.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>{“user”:”eyeos”, ”name”:”personal”, ”description”:”detail”, ”timezone”:”0”,
@@ -2806,18 +2804,18 @@ Obtain a list with all of the user's calendars.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “getCalendars”,</span><br>
-      <span style="margin-left:120px">“user”: “eyeos”</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “getCalendars”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“user”: “eyeos”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2825,7 +2823,7 @@ Obtain a list with all of the user's calendars.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata vector or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>[{“user”:”eyeos”, ”name”:”personal”, ”description”:”detail”, ”timezone”:”0”,
@@ -2856,18 +2854,18 @@ Obtain a list with all of the user‟s calendars and events.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “getCalendarsAndEvents”,</span><br>
-      <span style="margin-left:120px">“user”: “eyeos”</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “getCalendarsAndEvents”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“user”: “eyeos”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2875,7 +2873,7 @@ Obtain a list with all of the user‟s calendars and events.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata vector or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>[{“user”:”eyeos”, ”name”:”personal”, ”description”:”detail”, ”timezone”:”0”,
@@ -2911,18 +2909,18 @@ Delete all the calendars and events of the user.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “deleteCalendarsUser”,</span><br>
-      <span style="margin-left:120px">“user”: “eyeos”</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “deleteCalendarsUser”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“user”: “eyeos”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2930,7 +2928,7 @@ Delete all the calendars and events of the user.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>{“delete”:”true”}</span><br>
@@ -2964,18 +2962,18 @@ Check if the file is blocked by another user.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “getMetadataFile”,</span><br>
-      <span style="margin-left:120px">“id”: “2150"</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “getMetadataFile”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: “2150"</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -2983,7 +2981,7 @@ Check if the file is blocked by another user.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>{“id”:”2150”, ”cloud”:”Stacksync”, ”user”:”eyeos”,
@@ -3019,22 +3017,22 @@ Unblock an eyeDocs file.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “lockFile”,</span><br>
-      <span style="margin-left:120px">“id”: “2150"</span><br>
-      <span style="margin-left:120px">“user”: “eyeos",</span><br>
-      <span style="margin-left:120px">“ipserver”: “192.168.56.101”,</span><br>
-      <span style="margin-left:120px">“datetime”: “2015-05-12 11:50:00”,</span><br>
-      <span style="margin-left:120px">“timelimit”: 10</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “lockFile”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: “2150"</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“user”: “eyeos",</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“ipserver”: “192.168.56.101”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“datetime”: “2015-05-12 11:50:00”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“timelimit”: 10</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -3042,7 +3040,7 @@ Unblock an eyeDocs file.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>{“lockFile”: true}</span><br>
