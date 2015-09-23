@@ -1269,7 +1269,7 @@ A DELETE call is made to the Sync API to delete the selected event:
 “20150828120000”, “<b>timeend<b>”:” 20150828130000”, “<b>isallday</b>”: 0}
 
 <b>URL:</b>http://api.stacksync.com:8080/v1/event/<b>:user</b>/<b>:calendar</b>/<b>:cloud</b>/<b>:timestart</b>/
-<b>:timeend</b>/<b>:isallday
+<b>:timeend</b>/<b>:isallday</b>
 
 <p><b>Step 12:</b>
 
