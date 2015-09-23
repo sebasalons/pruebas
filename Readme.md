@@ -6,7 +6,6 @@ Tutorial eyeOS 2.5 OpenSource & CloudSpaces
 - [eyeOS Open Source installation on Ubuntu](#eyeos-open-source-installation-on-ubuntu)
     - [Requeriments](#requeriments)
     - [eyeOS installation](#eyeos-installation)
-    - [API Sync installation](#api-sync-installation)
 - [eyeOS Platform](#eyeos-platform)
     - [Introduction](#introduction)
     - [eyeOS integration with Personal Clouds](#eyeos-integration-with-personal-clouds)
@@ -34,7 +33,7 @@ Tutorial eyeOS 2.5 OpenSource & CloudSpaces
 
 +   **Apache HTTP Server**
 
-    \# <u><b>apt-get</b> install apache2</u>  
+    \# apt-get install apache2  
     \# apache2 -version  
 
     ![](img/apache2_version.jpg)
@@ -128,7 +127,7 @@ Tutorial eyeOS 2.5 OpenSource & CloudSpaces
     \# update-alternatives --config java  
     \# java -version  
 
-    ![](img/apache2_version.jpg)
+    ![](img/java_version.jpg)
 
 +   **OpenOffice**
 
@@ -259,12 +258,6 @@ After the installation is finished select 'Go to my new eyeOS' to see the eyeOS 
 
 ![](img/eyeos_login.jpg)
 
-### API Sync installation
-
-Follow the steps explained in the Readme.md file, located in /var/www/eyeos/APISync. API Sync can be installed in the same machine than eyeOS or in another independent machine.
-
-If installed in another independent machine the directories /var/www/eyeos/APISync must be copied in that machine.
-
 ## eyeOS Platform
 
 ### Introduction
@@ -366,12 +359,12 @@ Below the communication dialog box is shown:
 
 <center><img src=img/image3.jpg/></center>
 
-<p style="text-decoration:underline">**Step 1:**
+<p><b>Step 1:
 
 Request the key and secret token from Stacksync that identifies eyeOS as a resource
 user of CloudSpaces. This communication was carried out via email.
 
-<p style="text-decoration:underline">**Step 2:**
+<p><b>Step 2:
 
 Request the token and provide Stacksync with the forwarding url to eyeOS once the
 user has given authorization.
@@ -379,7 +372,7 @@ user has given authorization.
 Stacksync responds to the aforementioned request with a valid token and authorization
 url.
 
-<p style="text-decoration:underline">**Step 3:**
+<p><b>Step 3:
 
 Redirect the user to the authorization url where the user gives eyeOS access to their
 private area.
@@ -387,7 +380,7 @@ private area.
 Once Stacksync verifies the user, the user is redirected to the eyeOS url provided in
 the previous step.
 
-<p style="text-decoration:underline">**Step 4:**
+<p><b>Step 4:
 
 Request the access token and secret token from Stacksync, which will be used to
 identify eyeOS when it accesses the private area of the user in CloudSpaces.
@@ -497,9 +490,9 @@ folder *New Folder*.
   - A call is made with the GET method using a token that is valid in Stacksync to
 check the content of the *Comments* folder (id: 2053).
 
-  **URL parameters**: {“**id**”: “2053”}
+  <b>URL parameters</b>: { “<b>id</b>”: “2053” }
 
-  **URL**: http<nolink>://api.stacksync.com:8080/v1/folder/**:id**/contents
+  <b>URL</b>: http://api.stacksync.com:8080/v1/folder/<b>:id</b>/contents
 
   - It returns metadata with the files in the *Comments* folder.
 
@@ -515,9 +508,9 @@ false, "parent_id": "null", "version": 2, "is_folder": true, "id": 2053, "conten
   - A call is made with the POST method to the Storage API to create the folder *New
 Folder* within the *Comments* folder (id: 2053).
 
-  **URL**: http<nolink>://api.stacksync.com:8080/v1/folder
+  <b>URL:</b> http://api.stacksync.com:8080/v1/folder
 
-  **POST**: {“name”: New Folder,”parent”:2053}
+  <b>POST:</b> { “name”: New Folder,”parent”:2053 }
 
   - The following metadata confirms that the folder has been created correctly:
 
@@ -526,10 +519,10 @@ Folder* within the *Comments* folder (id: 2053).
 false, "parent_id": "null", "version": 2, "is_folder": true, "id": 2053, "contents":
 [{"status": "CHANGED", "mimetype": "text/plain", "checksum": 296026785,
 "modified_at": "2015-06-15 12:59:57.414", "filename": "New File.txt", "parent_id":2053, "version": 2, "is_folder": false, "chunks": [], "id": 2059, "size": 10},
-**{"status": "NEW", "mimetype": "inode/directory", "checksum": 0,
+<b>{"status": "NEW", "mimetype": "inode/directory", "checksum": 0,
 "modified_at": "2015-09-05 12:13:55.107", "filename": "New Folder",
 "is_root": false, "parent_id": 2053, "version": 1, "is_folder": true, "id": 2062,
-"size": 0}**], "size": 0}
+"size": 0}</b>], "size": 0}
 
     <center><img src=img/image19.jpg/></center>
 
@@ -558,7 +551,7 @@ B)* and the eyeOS platform:
 
 <center><img src=img/image20.jpg/></center>
 
-<p style="text-decoration:underline">**Step 1:**
+<p><b>Step 1:
 
 The user makes a request to Personal Cloud A with the URL and a valid ACCESS
 TOKEN from Personal Cloud A, to list all of the directories and files that a directory
@@ -566,18 +559,18 @@ identified with a specific ID contains
 
 <center><img src=img/image21.jpg/></center>
 
-<p style="text-decoration:underline">**Step 2:**
+<p><b>Step 2:
 
 Personal Cloud A returns a structure of directories and files. In this structure it is
 possible to find directories shared with Personal Cloud B. The feature which identifies
 these directories is a URL and a valid ACCESS TOKEN from Personal Cloud B.
 
-<p style="text-decoration:underline">**Step 3:**
+<p><b>Step 3:
 
 To list the content of this directory, the user makes a request to the API of Personal
 Cloud B with the URL, directory ID, and ACCESS TOKEN received in Step 2.
 
-<p style="text-decoration:underline">**Step 4:**
+<p><b>Step 4:
 
 Personal Cloud B returns a structure of directories and files corresponding to the
 directory specified in the URL. From this point, all requests implemented in the Storage
@@ -592,9 +585,9 @@ in the folder *interop1* shared by another NEC user:
   - A call is made with the GET method using a valid Stacksync token to check the
 content of the Stacksync root folder:
 
-  **URL parameters:** {“**id**”: “0”}
+  <b>URL parameters:</b> { “<b>id</b>”: “0” }
 
-  **URL:** http<nolink>://api.stacksync.com:8080/v1/folder/**:id**/contents
+  <b>URL:</b> http://api.stacksync.com:8080/v1/folder/<b>id</b>/contents
 
   - It returns metadata with the files in the Stacksync root folder. Within this metadata
 there are new tags: resource_url, access_token_key and access_token_secret.
@@ -614,18 +607,18 @@ API of NEC:
 1587, "size": 51500},{"status": "RENAMED", "mimetype": "inode/directory",
 "checksum": 0, "modified_at": "2015-04-23 12:11:09.351", "filename": "interop1",
 "is_root": false, "parent_id": "null", "version": 2, "is_folder": true, "id": 1972, "size":
-0, ,**”resource_url”: ”http<nolink>://csdev.neccloudhub.com:1080/api/cloudspaces/”,
+0, ,<b>”resource_url”: ”http://csdev.neccloudhub.com:1080/api/cloudspaces/”,
 “access_token_key”:
 “e7e2b8e-14bc-4a75-942b-d757fe7035da”,
-“access_token_secret”: “30c60a55-0b50-4262-9720-c50e0e3489f0”**}], "size":
+“access_token_secret”: “30c60a55-0b50-4262-9720-c50e0e3489f0”</b>}], "size":
 "null"}
 
   - A call is made with the GET method using the URL and token of NEC recovered
 in the previous query to find out the content of the folder *interop1* (id: 1972):
 
-  **URL parameters:** {“**id**”: “1972” }
+  <b>URL parameters:</b> { “<b>id</b>”: “1972” }
 
-  **URL:** http<nolink>://csdev.neccloudhub.com:1080/api/cloudspaces/folder/**:id**/contents
+  <b>URL:</b> http://csdev.neccloudhub.com:1080/api/cloudspaces/folder/<b>:id</b>/contents
 
   - It returns metadata with the files contained in the folder *interop1* of NEC:
 
@@ -639,9 +632,9 @@ in the previous query to find out the content of the folder *interop1* (id: 1972
   - <p>A call is made using the POST method with the token obtained from the first
 query to create the folder *New Folder* within the folder *interop1* (id: 1972).
 
-  **URL:** http<nolink>://csdev.neccloudhub.com:1080/api/cloudspaces/folder
+  <b>URL:</b> http://csdev.neccloudhub.com:1080/api/cloudspaces/folder
 
-  **POST:** {“name”: New Folder,”parent”:1972}
+  <b>POST:</b> {“name”: New Folder,”parent”:1972}
 
   The following metadata confirms that the folder has been created correctly:
 
@@ -665,9 +658,9 @@ The following example details the process of how the eyeos user shares the folde
   - A call is made with the GET method using a valid Stacksync token to obtain
 information of the users who share the folder *share* (id: 1973):
 
-  **URL parameters:** { “**id**”: “1973” }
+  <b>URL parameters:</b> { “<b>id</b>”: “1973” }
 
-  **URL:** http<nolink>://api.stacksync.com:8080/v1/folder/**:id**/members
+  <b>URL:</b> http://api.stacksync.com:8080/v1/folder/<b>:id</b>/members
 
   - It returns metadata with the users who share that folder, in this case since it is
 not shared, it only returns the owner user:
@@ -690,19 +683,19 @@ with this user:
   - <p>In a POST call the list of emails is sent of the users with whom the folder is going
 to be shared:
 
-  **URL parameters:** { “**id**”: “1973” }
+  <b>URL parameters:</b> { “<b>id</b>”: “1973” }
 
-  **URL**: http<nolink>://api.stacksync.com:8080/v1/folder/**:id**/share
+  <b>URL</b>: http://api.stacksync.com:8080/v1/folder/<b>:id</b>/share
 
-  **POST:** { [ “tester1@test.com” ] }
+  <b>POST:</b> { [ “tester1@test.com” ] }
 
   - When doing another GET call to check which users share the folder, it can be
 seen that it has been shared with the user *tester1* in the tab Activity of the Social
 Bar:
 
-  **URL parameters:** { “**id**”: “1973” }
+  <b>URL parameters:</b> { “<b>id</b>”: “1973” }
 
-  **URL:** http<nilink>://api.stacksync.com:8080/v1/folder/**:id**/members
+  <b>URL:</b> http://api.stacksync.com:8080/v1/folder/<b>:id</b>/members
 
   [{"joined_at": "2015-03-27", "is_owner": true, "name": "eyeos", "email": "eyeos@test.com"},[{"joined_at": "2015-03-27", "is_owner": false, "name": "tester1", "email": “tester1@test.com”}]
 
@@ -724,11 +717,11 @@ unshared with the owner of said directory, so they are not shown on the list.
   - <p>In a POST call the list of emails is sent of the users with whom the folder is going
 to be unshared:
 
-  **URL parameters:** { “**id**”: “1973” }
+  <b>URL parameters:</b> { “<b>id</b>”: “1973” }
 
-  **URL**: http<nolink>://api.stacksync.com:8080/v1/folder/**:id**/unshare
+  <b>URL</b>: http://api.stacksync.com:8080/v1/folder/<b>:id</b>/unshare
 
-  **POST:** { [ “tester1@test.com” ] }
+  <b>POST:</b> { [ “tester1@test.com” ] }
 
   If all of the users are removed from the list, the directory will no longer be
 available for those users and the “unshare” option in the context menu will
@@ -758,7 +751,7 @@ the following diagram:
 
 <center><img src=img/image31.jpg/></center>
 
-<p style="text-decoration:underline">**Step 1:**
+<p><b>Step 1:</b>
 
 The user *stacksync (User A)* opens the document *eyeos2.edoc* (id: 1980) located in the
 folder *Comments of Stacksync*. Two checks are made:
@@ -770,25 +763,25 @@ project.
 
 In both cases it is blocked by the current user.
 
-To configure the maximum blocking time of the file, the constant **TIME_LIMIT_BLOCK**
+To configure the maximum blocking time of the file, the constant <b>TIME_LIMIT_BLOCK</b>
 in settings.php should be modified. In the following example it is set at 10 minutes:
 
-If (!defined('TIME_LIMIT_BLOCK') define(**'TIME_LIMIT_BLOCK',10**);
+If (!defined('TIME_LIMIT_BLOCK') define(<b>'TIME_LIMIT_BLOCK',10</b>);
 
 To block the file the user *stacksync (User A)* makes a call with the POST method using
 a valid Stacksync token to the Sync API:
 
-**URL:** http<nolink>://api.stacksync.com:8080/v1/lockFile
+<b>URL:</b>http://api.stacksync.com:8080/v1/lockFile
 
-**POST:** {"id":"1980", "cloud": "Stacksync", "user": "stacksync", "ipserver": "192.68.56.101, "datetime": "2015-05-12 10:50:00", "timelimit":10}
+<b>POST:</b> {"id":"1980", "cloud": "Stacksync", "user": "stacksync", "ipserver": "192.68.56.101, "datetime": "2015-05-12 10:50:00", "timelimit":10}
 
-<p style="text-decoration:underline">**Step 2:**
+<p><b>Step 2:</b>
 
 The user *stacksync (User A)* gets permission to edit the requested document.
 
 {"lockFile":true}
 
-<p style="text-decoration:underline">**Step 3:**
+<p><b>Step 3:
 
 The user *stacksync2 (User B)* opens the same document that the user *stacksync (User
 A)* is editing. It is confirmed that the user does not have permission to edit the
@@ -796,12 +789,12 @@ document.
 
 The same call is made as in Step 1:
 
-**URL:** http<nolink>://api.stacksync.com:8080/v1/lockFile
+<b>URL:</b>http://api.stacksync.com:8080/v1/lockFile
 
-**POST:** {"id":"1980", "cloud": "Stacksync", "user": "stacksync2", ,"ipserver":
+<b>POST:</b> {"id":"1980", "cloud": "Stacksync", "user": "stacksync2", ,"ipserver":
 "192.68.56.101, "datetime": "2015-05-12 10:55:00", "timelimit":10}
 
-<p style="text-decoration:underline">**Step 4:**
+<p><b>Step 4:
 
 The user *stacksync2 (User B)* is informed that they do not have permission to edit the
 document:
@@ -813,7 +806,7 @@ document:
 <p>In the eyeDocs application this document will be identified with the label "(Read Only)"
 in the title bar and the Menu, Toolbar, and document container will be blocked.
 
-<p style="text-decoration:underline">**Step 5:**
+<p><b>Step 5:
 
 The user *stacksync (User A)* updates the content of the document. Each content
 update causes the time and date of the last document update to change to current
@@ -822,49 +815,49 @@ values.
 The user *stacksync (User A)* makes a call using the PUT method to the Sync API to
 update the time and date of the document:
 
-**URL:** http<nolink>://api.stacksync.com:8080/v1/updateTime
+<b>URL:</b> http://api.stacksync.com:8080/v1/updateTime
 
-**PUT:** {"id":"1980", "cloud": "Stacksync" ,"user": "stacksync", "ipserver":
+<b>PUT:</b> {"id":"1980", "cloud": "Stacksync" ,"user": "stacksync", "ipserver":
 "192.68.56.101", "datetime":"2015-05-12 10:57:00"}
 
 It returns metadata showing that the update has been made:
 
 {"updateFile":true}
 
-<p style="text-decoration:underline">**Step 6:**
+<p><b>Step 6:
 
 The user *stacksync (User A)* still has permission to edit the document.
 
-<p style="text-decoration:underline">**Step 7:**
+<p><b>Step 7:
 
 Every 10 seconds the user *stacksync2 (User B)* checks if the document is still being
 blocked by the user *stacksync (User A)*. As it continues to be blocked the user makes a
 request for the content of the document.
 
-<p style="text-decoration:underline">**Step 8:**
+<p><b>Step 8:
 
 The content is updated in the eyeDocs document of the user *stacksync2 (User B).*
 
-<p style="text-decoration:underline">**Step 9:**
+<p><b>Step 9:
 
 The user *stacksync (User A)* closes the document and frees the editing permissions.
 
 A PUT call is made to the Sync API to remove the document block.
 
-**URL:** http<nolink>://api.stacksync.com:8080/v1/unLockFile
+<b>URL:</b> http://api.stacksync.com:8080/v1/unLockFile
 
-**PUT:** {"id":"1980", "cloud": "Stacksync", "user": "stacksync", "ipserver": "192.68.56.101", "datetime":"2015-05-12 10:59:00"}
+<b>PUT:</b> {"id":"1980", "cloud": "Stacksync", "user": "stacksync", "ipserver": "192.68.56.101", "datetime":"2015-05-12 10:59:00"}
 
 It returns metadata that states that the file has been freed:
 
 {"unLockFile":true}
 
-<p style="text-decoration:underline">**Step 10:**
+<p><b>Step 10:
 
 User B checks if the document is still being blocked by User A. Since it has been freed,
 User B unblocks it and makes a request to recover the content of the document.
 
-<p style="text-decoration:underline">**Step 11:**
+<p><b>Step 11:
 
 The same procedure is carried out as in Step 8 and the following message appears:
 
@@ -910,20 +903,20 @@ users:
 
 <center><img src="img/image36.jpg"/></center>
 
-<p style="text-decoration:underline">**Step 1:**
+<p><b>Step 1:
 
 When selecting a file shared with other users from the same or different cloud, when
 clicking on the “Comments” tab of the file *2005 12 10-w50s.flv* (id:1950) located in the
 folder *Information*, the user *stacksync* will make a GET request using the valid
 Stacksync token to obtain the comments related to the file:
 
-**URL parameters:** { “**id**”: “1950, “**cloud**”: “Stacksync”}
+<b>URL parameters:</b> { “<b>id</b>”: “1950, “<b>cloud</b>”: “Stacksync”}
 
-**URL:** http<nolink>://api.stacksync.com:8080/v1/comment/**:id**/**:cloud**
+<b>URL:</b> http://api.stacksync.com:8080/v1/comment/<b>:id</b>/<b>:cloud
 
 <center><img src="img/image37.jpg"/></center>
 
-<p style="text-decoration:underline">**Step 2:**
+<p><b>Step 2:
 
 It returns metadata with the list of comments associated to the file:
 
@@ -935,7 +928,7 @@ It returns metadata with the list of comments associated to the file:
 
 <p>The comments are shown in a list which shows the most current comments first.
 
-<p style="text-decoration:underline">**Step 3:**
+<p><b>Step 3:
 
 Clicking on the New button will bring up a form which will allow the user *stacksync2* to
 insert a comment associated to the shared file.
@@ -945,22 +938,22 @@ insert a comment associated to the shared file.
 <p>A POST call is made to the Sync API to add the comment of the user *stacksync2* to the
 file on Stacksync:
 
-**URL:** http<nolink>://api.stacksync.com:8080/v1/comment
+<b>URL:</b> http://api.stacksync.com:8080/v1/comment
 
-**POST:** { “id”: “1950”, “user”: “stacksync2”, “cloud”: “Stacksync”, “text”: “Test comment” }
+<b>POST:</b> { “id”: “1950”, “user”: “stacksync2”, “cloud”: “Stacksync”, “text”: “Test comment” }
 
-<p style="text-decoration:underline">**Step 4:**
+<p><b>Step 4:
 
 It returns metadata with the data of the new comment.
 
 { “id”: “1950”, “user”:“stacksync2”, “cloud”:“Stacksync”, “text”: “Test comment”,
 “time_created”: “201509071827”, “status”: “NEW” }
 
-<p style="text-decoration:underline">**Step 5:**
+<p><b>Step 5:
 
 The user *stacksync* makes a query as in Step 1.
 
-<p style="text-decoration:underline">**Step 6:**
+<p><b>Step 6:
 
 It returns metadata with the comment introduced by the user *stacksync2*:
 
@@ -984,17 +977,17 @@ them will be disabled.
 The change of state is reversible, so if the file is shared again, options for inserting and
 deleting comments will automatically be enabled again.
 
-<p style="text-decoration:underline">**Step 7:**
+<p><b>Step 7:
 
 A call is made using the DELETE method to the Sync API to delete the comment made
 previously by the user *stacksync2*:
 
-**URL parameters:** { “**id**”: “1950”, “**user**”: “stacksync2”, “**cloud**”: “Stacksync”,
-”**time_created**”: “201509071827” }
+<b>URL parameters:</b> { “<b>id</b>”: “1950”, “<b>user</b>”: “stacksync2”, “<b>cloud</b>”: “Stacksync”,
+”<b>time_created</b>”: “201509071827” }
 
-**URL:** http<nolink>://api.stacksync.com:8080/v1/comment/**:id**/**:user**/**:cloud**/**:time_created**
+<b>URL:</b> http://api.stacksync.com:8080/v1/comment/<b>:id</b>/<b>:user</b>/<b>:cloud</b>/<b>:time_created
 
-<p style="text-decoration:underline">**Step 8:**
+<p><b>Step 8:
 
 It returns metadata with the data of the deleted comment.
 
@@ -1038,18 +1031,18 @@ The synchronization of calendars is detailed in the following diagram:
 
 <center><img src=img/image42.jpg/></center>
 
-<p style="text-decoration:underline">**Step 1:**
+<p><b>Step 1:
 
 The user *stacksync (User A)*, logged into eyeOS, makes a request to the cloud to
 obtain a list with all their calendars.
 
 A GET call is made to the Sync API using a valid Stacksync token:
 
-**URL parameters:** { “**user**”: “stacksync”, “**cloud**”: “Stacksync”}
+<b>URL parameters:</b> { “<b>user</b>”: “stacksync”, “<b>cloud</b>”: “Stacksync”}
 
-**URL:** http<nolink>://api.stacksync.com:8080/v1/calendar/**:user**/**:cloud**
+<b>URL:</b> http://api.stacksync.com:8080/v1/calendar/<b>:user</b>/<b>:cloud
 
-<p style="text-decoration:underline">**Step 2:**
+<p><b>Step 2:
 
 It returns metadata with the list of calendars:
 
@@ -1063,7 +1056,7 @@ platform. If the answer is affirmative, the new calendar is added to the list.
 
 <center><img src=img/image43.jpg/></center>
 
-<p style="text-decoration:underline">**Step 3:**
+<p><b>Step 3:
 
 The user *stacksync (User A)* creates a new calendar using the New calendar button
 and specifying the name that they want it to have on the cloud:
@@ -1073,12 +1066,12 @@ and specifying the name that they want it to have on the cloud:
 <p>A POST call is made to the Sync API to create the calendar entered by the user
 *stacksync*:
 
-**URL:** http<nolink>://api.stacksync.com:8080/v1/calendar
+<b>URL:</b> http://api.stacksync.com:8080/v1/calendar
 
-**POST:** {"user": "stacksync", "name" : ”Calendar 2, "cloud": "Stacksync", "description":
+<b>POST:</b> {"user": "stacksync", "name" : ”Calendar 2, "cloud": "Stacksync", "description":
 "Test Calendar2","timezone":0}
 
-<p style="text-decoration:underline">**Step 4:**
+<p><b>Step 4:
 
 It returns metadata with the data of the new calendar.
 
@@ -1089,37 +1082,37 @@ It returns metadata with the data of the new calendar.
 
 <p>The list of calendars is updated with the data of the new calendar.
 
-<p style="text-decoration:underline">**Step 5:**
+<p><b>Step 5:
 
 The user *stacksync (User A)*, logged in on another platform, makes a request to obtain
 the list of calendars. The calendar introduced previously on eyeOS is included on this
 list.
 
-<p style="text-decoration:underline">**Step 6:**
+<p><b>Step 6:
 
 The platform will update the calendars of the user, with the data obtained in the
 response to the request.
 
-<p style="text-decoration:underline">**Step 7:**
+<p><b>Step 7:
 
 The user *stacksync (User A)* creates a new calendar on this platform, identifying with a
 name on the cloud.
 
-<p style="text-decoration:underline">**Step 8:**
+<p><b>Step 8:
 
 The platform refreshes the list of calendars including the new calendar.
 
-<p style="text-decoration:underline">**Step 9:**
+<p><b>Step 9:
 
 The calendar application checks every 20 seconds to see if a change has been made
 in the user's calendar. When a request is made to obtain the list of calendars, it checks
 if a new calendar has been created from another platform.
 
-<p style="text-decoration:underline">**Step 10:**
+<p><b>Step 10:
 
 The list of calendars is updated, adding the calendar created from another platform.
 
-<p style="text-decoration:underline">**Step 11:**
+<p><b>Step 11:
 
 The user *stacksync (User A)* deletes a calendar form the context menu:
 
@@ -1127,26 +1120,26 @@ The user *stacksync (User A)* deletes a calendar form the context menu:
 
 <p>When using this option a DELETE call is made to the Sync API to delete the calendar:
 
-**URL parameters:** {“**user**”: “stacksync”, “**name**”: “Calendar 2”, “**cloud**”: “Stacksync”}
+<b>URL parameters:</b> {“<b>user</b>”: “stacksync”, “<b>name</b>”: “Calendar 2”, “<b>cloud</b>”: “Stacksync”}
 
-**URL:** http<nolink>://api.stacksync.com:8080/v1/calendar/**:user**/**:name**/**:cloud**
+<b>URL:</b> http://api.stacksync.com:8080/v1/calendar/<b>:user</b>/<b>:name</b>/<b>:cloud
 
 It returns metadata with the data of the deleted calendar.
 
 {"type":"calendar" ,"user": "stacksync" , "name": "Calendar 2", "cloud": "Stacksync",
 "description": "Test calendar 2, "timezone": 0,"status": "DELETED"}
 
-<p style="text-decoration:underline">**Step 12:**
+<p><b>Step 12:
 
 The list of calendars is updated, deleting the selected calendar.
 
-<p style="text-decoration:underline">**Step 13:**
+<p><b>Step 13:
 
 The user *stacksync (User A)* makes a request on the other platform to obtain a list of
 their calendars. They check whether any change has been made to the calendars from
 another platform.
 
-<p style="text-decoration:underline">**Step 14:**
+<p><b>Step 14:
 
 The platform deletes the calendar deleted with eyeOS from the list.
 
@@ -1159,7 +1152,7 @@ The synchronization of events is detailed in the following diagram:
 
 <center><img src=img/image47.jpg/></center>
 
-<p style="text-decoration:underline">**Step 1:**
+<p><b>Step 1:
 
 The user *stacksync (User A)*, logged into eyeOS, selects the calendars they wish to
 view and makes a request to obtain all of the events associated to the calendar which
@@ -1167,11 +1160,11 @@ are stored in the Personal Cloud.
 
 A GET call is made to the Sync API using a valid Stacksync token:
 
-**URL parameter:** {“**user**”: “stacksync”, “**calendar**”: “Calendar 1”, “**cloud**”: “Stacksync”}
+<b>URL parameter:</b> {“<b>user</b>”: “stacksync”, “<b>calendar</b>”: “Calendar 1”, “<b>cloud</b>”: “Stacksync”}
 
-**URL:** http<nolink>://api.stacksync.com:8080/v1/event/**:user**/**:calendar**/**:cloud**
+<b>URL:</b> http://api.stacksync.com:8080/v1/event/<b>:user</b>/<b>:calendar</b>/<b>:cloud
 
-<p style="text-decoration:underline">**Step 2:**
+<p><b>Step 2:
 
 It returns metadata with the events associated to *Calendar 1*:
 
@@ -1187,7 +1180,7 @@ by the user. Events can be viewed by day, week, or month.
 
 <p> In this case, the user has selected the option to view events by week.
 
-<p style="text-decoration:underline">**Step 3:**
+<p><b>Step 3:
 
 When clicking on a cell in the calendar, a dialog box is shown which allows users to
 insert an event and associate it with a particular calendar:
@@ -1196,14 +1189,14 @@ insert an event and associate it with a particular calendar:
 
 <p>A POST call is made to the Sync API to introduce an event in *Calendar 1*:
 
-**URL:** http<nolink>://api.stacksync.com:8080/v1/event
+<b>URL:</b> http://api.stacksync.com:8080/v1/event
 
-**POST:** {"user": "stacksync", "calendar": "Calendar 1", "cloud": "Stacksync", "isallday": 0,
+<b>POST:</b> {"user": "stacksync", "calendar": "Calendar 1", "cloud": "Stacksync", "isallday": 0,
 "timestart": "20150828120000", "timeend": "20150828130000", "repetition": "None",
 "finaltype": "1", "finalvalue": "0", "subject" :"Test", "location": "Barcelona", "description":
 "Test", "repeattype":"n"}
 
-<p style="text-decoration:underline">**Step 4:**
+<p><b>Step 4:
 
 It returns metadata with the data of the event introduced in the calendar.
 
@@ -1217,17 +1210,17 @@ Calendar introduces the details of the new events in the calendar cells.
 It checks every 10 seconds if any change has been made in the events from another
 platform. If they have, the calendar cells are refreshed with the updated events.
 
-<p style="text-decoration:underline">**Step 5:**
+<p><b>Step 5:
 
 From a different platform, the user *stacksync (User A)* makes a query to obtain a list of
 events associated to the selected calendar. This list includes the event created
 previously from the eyeOS platform.
 
-<p style="text-decoration:underline">**Step 6:**
+<p><b>Step 6:
 
 The platform updates its list of events and displays them on the screen.
 
-<p style="text-decoration:underline">**Step 7:**
+<p><b>Step 7:
 
 The user *stacksync (User A)* can edit all the information related to the event. If the
 platform used is eyeOS, they need to click on a previously entered event. The following
@@ -1237,57 +1230,57 @@ dialog box is displayed:
 
 <p>A PUT call is made to the Sync API to update the description of the event.
 
-**URL:** http<nolink>://api.stacksync.com:8080/v1/event
+<b>URL: http://api.stacksync.com:8080/v1/event
 
-**POST:** {"user": "stacksync", "calendar": "Calendar 1", "cloud": "Stacksync", "isallday": 0,
+<b>POST:</b> {"user": "stacksync", "calendar": "Calendar 1", "cloud": "Stacksync", "isallday": 0,
 "timestart": "20150828120000", "timeend": "20150828130000", "repetition": "None",
 "finaltype": "1", "finalvalue": "0", "subject" :"Test", "location": "Barcelona",
-**"description": "Detail Test"**, "repeattype":"n"}
+<b>"description": "Detail Test"</b>, "repeattype":"n"}
 
-<p style="text-decoration:underline">**Step 8:**
+<p><b>Step 8:
 
 It returns metadata with the data of the updated calendar.
 
 {"type": "event", "user": "stacksync", "calendar": "Calendar 1", "cloud": "Stacksync",
 "isallday": 0, "timestart": "20150828120000", "timeend": "20150828130000",
 "repetition": "None", "finaltype":"1", "finalvalue":"0", "subject":"Test", "location":
-"Barcelona", **"description":"Detail Test"**, "repeattype":"n","status":"NEW"}
+"Barcelona", <b>"description":"Detail Test"</b>, "repeattype":"n","status":"NEW"}
 
 The platform updates the event with the data received from the cloud.
 
-<p style="text-decoration:underline">**Step 9:**
+<p><b>Step 9:
 
 The calendar application checks every 10 seconds whether changes have been made
 to the events associated to the calendar. In this case, it finds that there are updates to
 an event made from a different platform.
 
-<p style="text-decoration:underline">**Step 10:**
+<p><b>Step 10:
 
 The event is updated locally with the data received from the cloud.
 
-<p style="text-decoration:underline">**Step 11:**
+<p><b>Step 11:
 
 The user *stacksync (User A)* can delete an event by clicking on the event and selecting
 delete from the dialog box to edit the event.
 
 A DELETE call is made to the Sync API to delete the selected event:
 
-**URL parameter:** { “**user**”: “stacksync”, “**calendar**”: “Calendar 1”, “**timestart**”:
-“20150828120000”, “**timeend**”:” 20150828130000”, “**isallday**”: 0}
+<b>URL parameter:</b> { “<b>user</b>”: “stacksync”, “<b>calendar</b>”: “Calendar 1”, “<b>timestart</b>”:
+“20150828120000”, “<b>timeend<b>”:” 20150828130000”, “<b>isallday</b>”: 0}
 
-**URL:**http<nolink>://api.stacksync.com:8080/v1/event/**:user**/**:calendar**/**:cloud**/**:timestart**/
-**:timeend**/**:isallday**
+<b>URL:</b>http://api.stacksync.com:8080/v1/event/<b>:user</b>/<b>:calendar</b>/<b>:cloud</b>/<b>:timestart</b>/
+<b>:timeend</b>/<b>:isallday
 
-<p style="text-decoration:underline">**Step 12:**
+<p><b>Step 12:
 
 The event is deleted from the calendar cell.
 
-<p style="text-decoration:underline">**Step 13:**
+<p><b>Step 13:
 
 The platform makes a query to check if any of the events have been changed. In this
 case it is seen that an event has been deleted.
 
-<p style="text-decoration:underline">**Step 14:**
+<p><b>Step 14:
 
 The platform deletes the event previously deleted from eyeOS from its calendar.
 
@@ -1368,14 +1361,14 @@ case “Stacksync” or “NEC”:
 
 #### ANNEX 2 Oauth Manager
 
-**getRequestToken**(cloud)
+<b>getRequestToken</b>(cloud)
 
 Request the request token from a specific cloud for the eyeOS consumer.
 
 <table width="100%" style="margin: 0px auto;border-collapse:collapse;">
   <tr>
     <td bgcolor="#C0C0C0">Parameters:</td>
-    <td>**cloud** - Contains the name of the cloud</td>
+    <td><b>cloud</b> - Contains the name of the cloud</td>
   </tr>
   <tr>
     <td bgcolor="#C0C0C0">Script call:</td>
@@ -1401,7 +1394,7 @@ Request the request token from a specific cloud for the eyeOS consumer.
   </tr>
 </table>
 
-<p>**getAccessToken**(cloud, token, verifier)
+<p><b>getAccessToken</b>(cloud, token, verifier)
 
 Request the Access token from a specific cloud for the eyeOS consumer from a
 request token.
@@ -1411,9 +1404,9 @@ request token.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud
-        <li>**token** - Contains the request token and user authorization
-        <li>**verifier** - Contains the authorization given by the user for the eyeOS consumer
+        <li><b>cloud</b> - Contains the name of the cloud
+        <li><b>token</b> - Contains the request token and user authorization
+        <li><b>verifier</b> - Contains the authorization given by the user for the eyeOS consumer
       </ul>
     </td>
   </tr>
@@ -1447,7 +1440,7 @@ request token.
 
 The configuration file of the Oauth API is detailed in Annex 1.
 
-**getRequestToken**(oauth)
+<b>getRequestToken</b>(oauth)
 
 Request the request token of the eyeOS consumer.
 
@@ -1466,7 +1459,7 @@ Request the request token of the eyeOS consumer.
   </tr>
   <tr>
     <td bgcolor="#C0C0C0">Parameters:</td>
-    <td>**oauth** - OauthRequest object. Contains the values of the consumer key, consumer secret, and CALLBACK_url of the configuration file.</td>
+    <td><b>oauth</b> - OauthRequest object. Contains the values of the consumer key, consumer secret, and CALLBACK_url of the configuration file.</td>
   </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
@@ -1487,7 +1480,7 @@ Request the request token of the eyeOS consumer.
   </tr>
 </table>
 
-<p>**getAccessToken**(oauth)
+<p><b>getAccessToken</b>(oauth)
 
 Request the Access token of the eyeOS consumer from the saved request token.
 
@@ -1506,7 +1499,7 @@ Request the Access token of the eyeOS consumer from the saved request token.
   </tr>
   <tr>
     <td bgcolor="#C0C0C0">Parameters:</td>
-    <td>**oauth** - OauthRequest object. Contains the values of the consumer key and consumer secret of the configuration file. In addition to the request token and verifier received from StackSync.</td>
+    <td><b>oauth</b> - OauthRequest object. Contains the values of the consumer key and consumer secret of the configuration file. In addition to the request token and verifier received from StackSync.</td>
   </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
@@ -1529,7 +1522,7 @@ Request the Access token of the eyeOS consumer from the saved request token.
 
 #### ANNEX 4 Storage Manager
 
-**getMetadata**(cloud, token, id, path, user, resourceUrl)
+<b>getMetadata</b>(cloud, token, id, path, user, resourceUrl)
 
 Obtain the metadata of the current element. Generate its structure from files and/or
 directories in eyeOS.
@@ -1539,12 +1532,12 @@ directories in eyeOS.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud
-        <li>**token** - Contains the key and secret of the access token
-        <li>**id** - Identifying number of the element in the specific cloud
-        <li>**path** - eyeOS route
-        <li>**user** - Identifier of the eyeOS user
-        <li>**resourceUrl:** -  API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud
+        <li><b>token</b> - Contains the key and secret of the access token
+        <li><b>id</b> - Identifying number of the element in the specific cloud
+        <li><b>path</b> - eyeOS route
+        <li><b>user</b> - Identifier of the eyeOS user
+        <li><b>resourceUrl:</b> -  API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -1607,7 +1600,7 @@ directories in eyeOS.
   </tr>
 </table>
 
-<p>**getSkel**(cloud, token, file, id, metadatas, path, pathAbsolute, pathEyeos, resourceUrl)
+<p><b>getSkel</b>(cloud, token, file, id, metadatas, path, pathAbsolute, pathEyeos, resourceUrl)
 
 Recursively obtain the metadata that depends on the current element. Used in the
 action of copying and moving in eyeOS.
@@ -1617,15 +1610,15 @@ action of copying and moving in eyeOS.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**file** - True if it is a file, or False if it is a directory.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**metadatas** - Metadata accumulating vector.
-        <li>**path** - Path of the current element.
-        <li>**pathAbsolute** - eyeOS path
-        <li>**pathEyeos** - eyeOS path, only used when the destination of the action is outside the Personal Cloud.
-        <li>**resourceUrl** -  API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>file</b> - True if it is a file, or False if it is a directory.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>metadatas</b> - Metadata accumulating vector.
+        <li><b>path</b> - Path of the current element.
+        <li><b>pathAbsolute</b> - eyeOS path
+        <li><b>pathEyeos</b> - eyeOS path, only used when the destination of the action is outside the Personal Cloud.
+        <li><b>resourceUrl</b> -  API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -1696,7 +1689,7 @@ action of copying and moving in eyeOS.
   </tr>
 </table>
 
-<p>**createMetadata**(cloud, token, user, file, name, parent_id, path, pathAbsolute,
+<p><b>createMetadata</b>(cloud, token, user, file, name, parent_id, path, pathAbsolute,
 resourceUrl)
 
 Create a new file or directory.
@@ -1706,15 +1699,15 @@ Create a new file or directory.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**user** - Identifier of the eyeOS user.
-        <li>**file** - True if it is a file, or False if it is a directory.
-        <li>**name** - Name of the element.
-        <li>**parent_id** - Id of the destination directory.
-        <li>**path** -  Path of the current element.
-        <li>**pathAbsolute** -  Absolute path. Mandatory if the element is a file.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>user</b> - Identifier of the eyeOS user.
+        <li><b>file</b> - True if it is a file, or False if it is a directory.
+        <li><b>name</b> - Name of the element.
+        <li><b>parent_id</b> - Id of the destination directory.
+        <li><b>path</b> -  Path of the current element.
+        <li><b>pathAbsolute</b> -  Absolute path. Mandatory if the element is a file.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -1755,7 +1748,7 @@ Create a new file or directory.
   </tr>
 </table>
 
-<p>**downloadMetadata**(token, id, path, user, isTmp, cloud, resourceUrl)
+<p><b>downloadMetadata</b>(token, id, path, user, isTmp, cloud, resourceUrl)
 
 Download the content of a file.
 
@@ -1764,13 +1757,13 @@ Download the content of a file.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**path** - Absolute path.
-        <li>**user** - Identifier of the eyeOS user.
-        <li>**isTmp** - False, updates the version table of the files. True, no update is carried out.
-        <li>**cloud** - Name of the cloud
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>path</b> - Absolute path.
+        <li><b>user</b> - Identifier of the eyeOS user.
+        <li><b>isTmp</b> - False, updates the version table of the files. True, no update is carried out.
+        <li><b>cloud</b> - Name of the cloud
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -1808,7 +1801,7 @@ Download the content of a file.
   </tr>
 </table>
 
-<p>**deleteMetadata**(cloud, token, file, id, user, path, resourceUrl)
+<p><b>deleteMetadata</b>(cloud, token, file, id, user, path, resourceUrl)
 
 Delete an existing file or directory.
 
@@ -1817,13 +1810,13 @@ Delete an existing file or directory.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**file** - True if it is a file, or False if it is a directory.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**user** - Identifier of the eyeOS user.
-        <li>**path** - Absolute path.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>file</b> - True if it is a file, or False if it is a directory.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>user</b> - Identifier of the eyeOS user.
+        <li><b>path</b> - Absolute path.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -1861,7 +1854,7 @@ Delete an existing file or directory.
   </tr>
 </table>
 
-<p>**renameMetadata**(cloud, token, file, id, name, path, user, parent, resourceUrl)
+<p><b>renameMetadata</b>(cloud, token, file, id, name, path, user, parent, resourceUrl)
 
 Rename a file or directory.
 
@@ -1870,15 +1863,15 @@ Rename a file or directory.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**file** - True if it is a file, or False if it is a directory.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**name** - New name of the element.
-        <li>**path** - Path of the current element.
-        <li>**user** - Identifier of the eyeOS user.
-        <li>**parent** - Id of the destination directory. (Optional)
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>file</b> - True if it is a file, or False if it is a directory.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>name</b> - New name of the element.
+        <li><b>path</b> - Path of the current element.
+        <li><b>user</b> - Identifier of the eyeOS user.
+        <li><b>parent</b> - Id of the destination directory. (Optional)
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -1918,7 +1911,7 @@ Rename a file or directory.
   </tr>
 </table>
 
-<p>**moveMetadata**(cloud, token, file, id, pathOrig, pathDest, user, parent, filenameOld,
+<p><b>moveMetadata</b>(cloud, token, file, id, pathOrig, pathDest, user, parent, filenameOld,
 filenameNew, resourceUrl)
 
 Move a file or directory.
@@ -1928,17 +1921,17 @@ Move a file or directory.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**file** - True if it is a file, or False if it is a directory.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**pathOrig** - eyeOS path at origin.
-        <li>**pathDest** - eyeOS path at destination.
-        <li>**user** - Identifier of the eyeOS user.
-        <li>**parent** - Id of the destination directory.
-        <li>**filenameOld** - Name of the element in the origin path.
-        <li>**filenameNew** - Name of the element in the destination path if different from the origin. (Optional).
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>file</b> - True if it is a file, or False if it is a directory.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>pathOrig</b> - eyeOS path at origin.
+        <li><b>pathDest</b> - eyeOS path at destination.
+        <li><b>user</b> - Identifier of the eyeOS user.
+        <li><b>parent</b> - Id of the destination directory.
+        <li><b>filenameOld</b> - Name of the element in the origin path.
+        <li><b>filenameNew</b> - Name of the element in the destination path if different from the origin. (Optional).
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -1978,7 +1971,7 @@ Move a file or directory.
   </tr>
 </table>
 
-<p>**listVersions**(cloud, token, id, user, resourceUrl)
+<p><b>listVersions</b>(cloud, token, id, user, resourceUrl)
 
 Obtain the list of versions of a specific file.
 
@@ -1987,11 +1980,11 @@ Obtain the list of versions of a specific file.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**user** - Identifier of the eyeOS user.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>user</b> - Identifier of the eyeOS user.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2043,7 +2036,7 @@ Obtain the list of versions of a specific file.
   </tr>
 </table>
 
-<p>**getFileVersionData**(cloud, token, id, version, path, user, resourceUrl)
+<p><b>getFileVersionData</b>(cloud, token, id, version, path, user, resourceUrl)
 
 Download the content of a specific version of an existing file.
 
@@ -2052,13 +2045,13 @@ Download the content of a specific version of an existing file.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**version** - Version pending download.
-        <li>**path** - Absolute path.
-        <li>**user** - Identifier of the eyeOS user.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>version</b> - Version pending download.
+        <li><b>path</b> - Absolute path.
+        <li><b>user</b> - Identifier of the eyeOS user.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2097,7 +2090,7 @@ Download the content of a specific version of an existing file.
   </tr>
 </table>
 
-<p>**getListUsersShare**(cloud, token, id, resourceUrl)
+<p><b>getListUsersShare</b>(cloud, token, id, resourceUrl)
 
 Obtain the list of users who share the directory.
 
@@ -2106,10 +2099,10 @@ Obtain the list of users who share the directory.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2146,7 +2139,7 @@ Obtain the list of users who share the directory.
   </tr>
 </table>
 
-<p>**shareFolder**(cloud, token, id, list,shared, resourceUrl)
+<p><b>shareFolder</b>(cloud, token, id, list,shared, resourceUrl)
 
 Share or stop sharing a directory with a list of users.
 
@@ -2155,12 +2148,12 @@ Share or stop sharing a directory with a list of users.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**list** - List of users.
-        <li>**shared** - (true- unshare, false - share)
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>list</b> - List of users.
+        <li><b>shared</b> - (true- unshare, false - share)
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2200,7 +2193,7 @@ Share or stop sharing a directory with a list of users.
   </tr>
 </table>
 
-<p>**insertComment**(cloud, token, id, user, text, resourceUrl)
+<p><b>insertComment</b>(cloud, token, id, user, text, resourceUrl)
 
 Create a new comment associated to a file shared on the cloud.
 
@@ -2209,12 +2202,12 @@ Create a new comment associated to a file shared on the cloud.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**user** - eyeOS user.
-        <li>**text** - Text of the comment.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>user</b> - eyeOS user.
+        <li><b>text</b> - Text of the comment.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2253,7 +2246,7 @@ Create a new comment associated to a file shared on the cloud.
   </tr>
 </table>
 
-<p>**deleteComment**(cloud, token, id, user, timeCreated, resourceUrl)
+<p><b>deleteComment</b>(cloud, token, id, user, timeCreated, resourceUrl)
 
 Delete a comment associated to a file shared on the cloud.
 
@@ -2262,12 +2255,12 @@ Delete a comment associated to a file shared on the cloud.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**user** - eyeOS user.
-        <li>**timeCreated** - Time and date of creation.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>user</b> - eyeOS user.
+        <li><b>timeCreated</b> - Time and date of creation.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2307,7 +2300,7 @@ Delete a comment associated to a file shared on the cloud.
   </tr>
 </table>
 
-<p>**getComments**(cloud, token, id, resourceUrl)
+<p><b>getComments</b>(cloud, token, id, resourceUrl)
 
 Obtain a list of comments associated to a file shared on the cloud
 
@@ -2316,10 +2309,10 @@ Obtain a list of comments associated to a file shared on the cloud
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2357,7 +2350,7 @@ Obtain a list of comments associated to a file shared on the cloud
   </tr>
 </table>
 
-<p>**insertEvent**(cloud, token, user, calendar, isallday, timestart, timeend, repetition,
+<p><b>insertEvent</b>(cloud, token, user, calendar, isallday, timestart, timeend, repetition,
 finaltype, finalvalue, subject, location, description, repeattype, resourceUrl)
 
 Create a new event in the calendar.
@@ -2367,21 +2360,21 @@ Create a new event in the calendar.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**user** - eyeOS user
-        <li>**calendar** - Calendar identifier.
-        <li>**isallday** - Specifies if the event takes up the whole day.
-        <li>**timestart** - Start date and time of the event.
-        <li>**timeend** - End date and time of the event.
-        <li>**repetition** – Specifies if the event is repeated on different days.
-        <li>**finaltype** - Final type of event.
-        <li>**finalvalue** - End date and time of the event if it goes on for several days.
-        <li>**subject** - Identifier of the event.
-        <li>**location** - Location of the event.
-        <li>**description** - Complementary information of the event.
-        <li>**repeattype** - How the event is repeated.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>user</b> - eyeOS user
+        <li><b>calendar</b> - Calendar identifier.
+        <li><b>isallday</b> - Specifies if the event takes up the whole day.
+        <li><b>timestart</b> - Start date and time of the event.
+        <li><b>timeend</b> - End date and time of the event.
+        <li><b>repetition</b> – Specifies if the event is repeated on different days.
+        <li><b>finaltype</b> - Final type of event.
+        <li><b>finalvalue</b> - End date and time of the event if it goes on for several days.
+        <li><b>subject</b> - Identifier of the event.
+        <li><b>location</b> - Location of the event.
+        <li><b>description</b> - Complementary information of the event.
+        <li><b>repeattype</b> - How the event is repeated.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2433,7 +2426,7 @@ Create a new event in the calendar.
   </tr>
 </table>
 
-<p>**deleteEvent**(cloud, token, user, calendar, timestart, timeend, isallday, resourceUrl)
+<p><b>deleteEvent</b>(cloud, token, user, calendar, timestart, timeend, isallday, resourceUrl)
 
 Delete an event from the calendar.
 
@@ -2442,14 +2435,14 @@ Delete an event from the calendar.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**user** - eyeOS user
-        <li>**calendar** - Calendar identifier.
-        <li>**timestart** - Start date and time of the event.
-        <li>**timeend** - End date and time of the event.
-        <li>**isallday** - Specifies if the event takes up the whole day.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>user</b> - eyeOS user
+        <li><b>calendar</b> - Calendar identifier.
+        <li><b>timestart</b> - Start date and time of the event.
+        <li><b>timeend</b> - End date and time of the event.
+        <li><b>isallday</b> - Specifies if the event takes up the whole day.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2495,7 +2488,7 @@ Delete an event from the calendar.
   </tr>
 </table>
 
-<p>**updateEvent**(cloud, token, user, calendar, isallday, timestart, timeend, repetition,
+<p><b>updateEvent</b>(cloud, token, user, calendar, isallday, timestart, timeend, repetition,
 finaltype, finalvalue, subject, location, description, repeattype, resourceUrl)
 
 Update the event data in the calendar.
@@ -2505,21 +2498,21 @@ Update the event data in the calendar.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**user** - eyeOS user
-        <li>**calendar** - Calendar identifier.
-        <li>**isallday** - Specifies if the event takes up the whole day.
-        <li>**timestart** - Start date and time of the event.
-        <li>**timeend** - End date and time of the event.
-        <li>**repetition** – Specifies if the event is repeated on different days.
-        <li>**finaltype** - Final type of event.
-        <li>**finalvalue** - End date and time of the event if it goes on for several days.
-        <li>**subject** - Identifier of the event.
-        <li>**location** - Location of the event.
-        <li>**description** - Complementary information of the event.
-        <li>**repeattype** - How the event is repeated.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>user</b> - eyeOS user
+        <li><b>calendar</b> - Calendar identifier.
+        <li><b>isallday</b> - Specifies if the event takes up the whole day.
+        <li><b>timestart</b> - Start date and time of the event.
+        <li><b>timeend</b> - End date and time of the event.
+        <li><b>repetition</b> – Specifies if the event is repeated on different days.
+        <li><b>finaltype</b> - Final type of event.
+        <li><b>finalvalue</b> - End date and time of the event if it goes on for several days.
+        <li><b>subject</b> - Identifier of the event.
+        <li><b>location</b> - Location of the event.
+        <li><b>description</b> - Complementary information of the event.
+        <li><b>repeattype</b> - How the event is repeated.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2571,7 +2564,7 @@ Update the event data in the calendar.
   </tr>
 </table>
 
-<p>**getEvents**(cloud, token, user, calendar, resourceUrl)
+<p><b>getEvents</b>(cloud, token, user, calendar, resourceUrl)
 
 Obtain all the events from a calendar.
 
@@ -2580,11 +2573,11 @@ Obtain all the events from a calendar.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**user** - eyeOS user
-        <li>**calendar** - Calendar identifier.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>user</b> - eyeOS user
+        <li><b>calendar</b> - Calendar identifier.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2627,7 +2620,7 @@ Obtain all the events from a calendar.
   </tr>
 </table>
 
-<p>**insertCalendar**(cloud, token, user, name, description, timezone, resourceUrl)
+<p><b>insertCalendar</b>(cloud, token, user, name, description, timezone, resourceUrl)
 
 Create a new calendar.
 
@@ -2636,13 +2629,13 @@ Create a new calendar.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**user** - eyeOS user
-        <li>**name** - Calendar identifier.
-        <li>**description** - Complementary information of the calendar.
-        <li>**timezone** - Timezone of the calendar.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>user</b> - eyeOS user
+        <li><b>name</b> - Calendar identifier.
+        <li><b>description</b> - Complementary information of the calendar.
+        <li><b>timezone</b> - Timezone of the calendar.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2684,7 +2677,7 @@ Create a new calendar.
   </tr>
 </table>
 
-<p>**deleteCalendar**(cloud, token, user, name, resourceUrl)
+<p><b>deleteCalendar</b>(cloud, token, user, name, resourceUrl)
 
 Delete a calendar.
 
@@ -2693,11 +2686,11 @@ Delete a calendar.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**user** - eyeOS user
-        <li>**name** - Calendar identifier.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>user</b> - eyeOS user
+        <li><b>name</b> - Calendar identifier.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2736,7 +2729,7 @@ Delete a calendar.
   </tr>
 </table>
 
-<p>**updateCalendar**(cloud, token, user, name, description, timezone, resourceUrl)
+<p><b>updateCalendar</b>(cloud, token, user, name, description, timezone, resourceUrl)
 
 Update calendar data.
 
@@ -2745,13 +2738,13 @@ Update calendar data.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**user** - eyeOS user
-        <li>**name** - Calendar identifier.
-        <li>**description** - Complementary information of the calendar.
-        <li>**timezone** - Timezone of the calendar.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>user</b> - eyeOS user
+        <li><b>name</b> - Calendar identifier.
+        <li><b>description</b> - Complementary information of the calendar.
+        <li><b>timezone</b> - Timezone of the calendar.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2792,7 +2785,7 @@ Update calendar data.
   </tr>
 </table>
 
-<p>**getCalendars**(cloud, token, user, resourceUrl)
+<p><b>getCalendars</b>(cloud, token, user, resourceUrl)
 
 Obtain a list with all of the user's calendars.
 
@@ -2801,10 +2794,10 @@ Obtain a list with all of the user's calendars.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**user** - eyeOS user
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>user</b> - eyeOS user
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2842,7 +2835,7 @@ Obtain a list with all of the user's calendars.
   </tr>
 </table>
 
-<p>**getCalendarsAndEvents**(cloud, token, user, resourceUrl)
+<p><b>getCalendarsAndEvents</b>(cloud, token, user, resourceUrl)
 
 Obtain a list with all of the user‟s calendars and events.
 
@@ -2851,10 +2844,10 @@ Obtain a list with all of the user‟s calendars and events.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**user** - eyeOS user
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>user</b> - eyeOS user
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2897,7 +2890,7 @@ Obtain a list with all of the user‟s calendars and events.
   </tr>
 </table>
 
-<p>**deleteCalendarsUser**(cloud, token, user, resourceUrl)
+<p><b>deleteCalendarsUser</b>(cloud, token, user, resourceUrl)
 
 Delete all the calendars and events of the user.
 
@@ -2906,10 +2899,10 @@ Delete all the calendars and events of the user.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**user** - eyeOS user
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>user</b> - eyeOS user
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -2946,7 +2939,7 @@ Delete all the calendars and events of the user.
   </tr>
 </table>
 
-<p>**unLockedFile**(cloud, token, id, user, ipserver, timeLimit, dt_now, resourceUrl)
+<p><b>unLockedFile</b>(cloud, token, id, user, ipserver, timeLimit, dt_now, resourceUrl)
 
 Check if the file is blocked by another user.
 
@@ -2955,14 +2948,14 @@ Check if the file is blocked by another user.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**user** - eyeOS user
-        <li>**ipserver** - IP address of the eyeOS server.
-        <li>**timeLimit** - Maximum time in minutes to block a file.
-        <li>**dt_now** - Current date and time
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>user</b> - eyeOS user
+        <li><b>ipserver</b> - IP address of the eyeOS server.
+        <li><b>timeLimit</b> - Maximum time in minutes to block a file.
+        <li><b>dt_now</b> - Current date and time
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -3001,7 +2994,7 @@ Check if the file is blocked by another user.
   </tr>
 </table>
 
-<p>**lockFile**(cloud, token, id, user, ipserver, timeLimit, dt_now, resourceUrl)
+<p><b>lockFile</b>(cloud, token, id, user, ipserver, timeLimit, dt_now, resourceUrl)
 
 Unblock an eyeDocs file.
 
@@ -3010,14 +3003,14 @@ Unblock an eyeDocs file.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**user** - eyeOS user
-        <li>**ipserver** - IP address of the eyeOS server.
-        <li>**timeLimit** - Maximum time in minutes to block a file.
-        <li>**dt_now** - Current date and time
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>user</b> - eyeOS user
+        <li><b>ipserver</b> - IP address of the eyeOS server.
+        <li><b>timeLimit</b> - Maximum time in minutes to block a file.
+        <li><b>dt_now</b> - Current date and time
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -3058,7 +3051,7 @@ Unblock an eyeDocs file.
   </tr>
 </table>
 
-<p>**updateDateTime**(cloud, token, id, user, ipserver, dt_now, resourceUrl)
+<p><b>updateDateTime</b>(cloud, token, id, user, ipserver, dt_now, resourceUrl)
 
 Update the metadata with the date and time of the latest change.
 
@@ -3067,13 +3060,13 @@ Update the metadata with the date and time of the latest change.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**user** - eyeOS user
-        <li>**ipserver** - IP address of the eyeOS server.
-        <li>**dt_now** - Current date and time
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>user</b> - eyeOS user
+        <li><b>ipserver</b> - IP address of the eyeOS server.
+        <li><b>dt_now</b> - Current date and time
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -3113,7 +3106,7 @@ Update the metadata with the date and time of the latest change.
   </tr>
 </table>
 
-<p>**unLockFile**(cloud, token, id, user, ipserver, dt_now, resourceUrl)
+<p><b>unLockFile</b>(cloud, token, id, user, ipserver, dt_now, resourceUrl)
 
 Unblock an eyeDocs file.
 
@@ -3122,13 +3115,13 @@ Unblock an eyeDocs file.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**user** - eyeOS user
-        <li>**ipserver** - IP address of the eyeOS server.
-        <li>**dt_now** - Current date and time
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>user</b> - eyeOS user
+        <li><b>ipserver</b> - IP address of the eyeOS server.
+        <li><b>dt_now</b> - Current date and time
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -3168,7 +3161,7 @@ Unblock an eyeDocs file.
   </tr>
 </table>
 
-<p>**getMetadataFolder**(cloud, token, id, resourceUrl)
+<p><b>getMetadataFolder</b>(cloud, token, id, resourceUrl)
 
 Obtain the file structure of a file in the cloud.
 
@@ -3177,10 +3170,10 @@ Obtain the file structure of a file in the cloud.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**cloud** - Contains the name of the cloud.
-        <li>**token** - Contains the key and secret of the access token.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**resourceUrl** - API to access the user's protected resources from the external cloud (Optional)
+        <li><b>cloud</b> - Contains the name of the cloud.
+        <li><b>token</b> - Contains the key and secret of the access token.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>resourceUrl</b> - API to access the user's protected resources from the external cloud (Optional)
       </ul>
     </td>
   </tr>
@@ -3248,7 +3241,7 @@ Obtain the file structure of a file in the cloud.
 
 The configuration file of the Storage API is detailed in Annex 1.
 
-**getMetadata**(oauth, file, id, contents)
+<b>getMetadata</b>(oauth, file, id, contents)
 
 Obtain the metadata of a directory and/or files.
 
@@ -3269,12 +3262,12 @@ Obtain the metadata of a directory and/or files.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**file** - True if it is a file, or False if it is a directory.
-        <li>**id** - Identifying number of the element (directory or file).
-        <li>**contents** - True, list the metadata that depend on the
+        <li><b>file</b> - True if it is a file, or False if it is a directory.
+        <li><b>id</b> - Identifying number of the element (directory or file).
+        <li><b>contents</b> - True, list the metadata that depend on the
 element identified with “Id”, or None, does not activate the
 list. Used when “Id” is a directory. (Optional)
       </ul>
@@ -3315,7 +3308,7 @@ list. Used when “Id” is a directory. (Optional)
   </tr>
 </table>
 
-<p>**updateMetadata**(oauth, file, id, name, parent)
+<p><b>updateMetadata</b>(oauth, file, id, name, parent)
 
 Update the metadata of the element when renaming and moving.
 
@@ -3336,13 +3329,13 @@ Update the metadata of the element when renaming and moving.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**file** - True if it is a file, or False if it is a directory.
-        <li>**id** - Identifying number of the element (directory or file).
-        <li>**name** - Name of the element
-        <li>**parent** - Id of the destination directory. (Optional)
+        <li><b>file</b> - True if it is a file, or False if it is a directory.
+        <li><b>id</b> - Identifying number of the element (directory or file).
+        <li><b>name</b> - Name of the element
+        <li><b>parent</b> - Id of the destination directory. (Optional)
       </ul>
     </td>
   </tr>
@@ -3373,7 +3366,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**createMetadata**(oauth, file, name, parent, path)
+<p><b>createMetadata</b>(oauth, file, name, parent, path)
 
 Create a new element (file or directory).
 
@@ -3394,13 +3387,13 @@ Create a new element (file or directory).
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**file** - True if it is a file, or False if it is a directory.
-        <li>**name** - Name of the element
-        <li>**parent** - Id of the destination directory. (Optional)
-        <li>**path** – Absolute path of the file. (Optional)
+        <li><b>file</b> - True if it is a file, or False if it is a directory.
+        <li><b>name</b> - Name of the element
+        <li><b>parent</b> - Id of the destination directory. (Optional)
+        <li><b>path</b> - Absolute path of the file. (Optional)
       </ul>
     </td>
   </tr>
@@ -3445,7 +3438,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**uploadFile**(oauth, id, path)
+<p><b>uploadFile</b>(oauth, id, path)
 
 Upload the content of an existing file.
 
@@ -3466,11 +3459,11 @@ Upload the content of an existing file.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**id** - Identifying number of the file.
-        <li>**path** - Absolute path of the file. (Optional)
+        <li><b>id</b> - Identifying number of the file.
+        <li><b>path</b> - Absolute path of the file. (Optional)
       </ul>
     </td>
   </tr>
@@ -3486,7 +3479,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**downloadFile**(oauth, id, path)
+<p><b>downloadFile</b>(oauth, id, path)
 
 Download the content of an existing file.
 
@@ -3507,11 +3500,11 @@ Download the content of an existing file.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**id** - Identifying number of the file.
-        <li>**path** - Absolute path of the file. (Optional)
+        <li><b>id</b> - Identifying number of the file.
+        <li><b>path</b> - Absolute path of the file. (Optional)
       </ul>
     </td>
   </tr>
@@ -3527,7 +3520,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**deleteMetadata**(oauth, file, id)
+<p><b>deleteMetadata</b>(oauth, file, id)
 
 Delete an element (file or directory).
 
@@ -3548,11 +3541,11 @@ Delete an element (file or directory).
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**file** - True if it is a file, or False if it is a directory.
-        <li>**id** - Identifying number of the element (directory or file).
+        <li><b>file</b> - True if it is a file, or False if it is a directory.
+        <li><b>id</b> - Identifying number of the element (directory or file).
       </ul>
     </td>
   </tr>
@@ -3597,7 +3590,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**getFileVersions**(oauth, id)
+<p><b>getFileVersions</b>(oauth, id)
 
 Obtain the list of versions of a specific file.
 
@@ -3618,10 +3611,10 @@ Obtain the list of versions of a specific file.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**id** - Identifying number of the file.
+        <li><b>id</b> - Identifying number of the file.
       </ul>
     </td>
   </tr>
@@ -3673,7 +3666,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**getFileVersionData**(oauth, id, version, path)
+<p><b>getFileVersionData</b>(oauth, id, version, path)
 
 Download the content of a specific version of an existing file.
 
@@ -3694,12 +3687,12 @@ Download the content of a specific version of an existing file.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**id** - Identifying number of the file.
-        <li>**version** - Version pending download.
-        <li>**path** - Absolute path of the file.
+        <li><b>id</b> - Identifying number of the file.
+        <li><b>version</b> - Version pending download.
+        <li><b>path</b> - Absolute path of the file.
       </ul>
     </td>
   </tr>
@@ -3715,7 +3708,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**getListUsersShare**(oauth, id)
+<p><b>getListUsersShare</b>(oauth, id)
 
 Obtain the list of users who share the directory.
 
@@ -3736,10 +3729,10 @@ Obtain the list of users who share the directory.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**id** - Identifying number of the directory.
+        <li><b>id</b> - Identifying number of the directory.
       </ul>
     </td>
   </tr>
@@ -3757,7 +3750,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**shareFolder**(oauth, id, list, isShared)
+<p><b>shareFolder</b>(oauth, id, list, isShared)
 
 Share or stop sharing a directory with a list of users.
 
@@ -3778,12 +3771,12 @@ Share or stop sharing a directory with a list of users.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**id** – Identifying number of the file
-        <li>**user** – Name of user
-        <li>**isShared** – (true - unshare, False - share)
+        <li><b>id</b> - Identifying number of the file
+        <li><b>user</b> - Name of user
+        <li><b>isShared</b> - (true - unshare, False - share)
       </ul>
     </td>
   </tr>
@@ -3799,7 +3792,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**insertComment**(oauth, id, user, text, cloud)
+<p><b>insertComment</b>(oauth, id, user, text, cloud)
 
 Create a new comment associated to a file shared on the cloud
 
@@ -3820,13 +3813,13 @@ Create a new comment associated to a file shared on the cloud
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**id** - Identifying number of the file
-        <li>**user** - Name of user
-        <li>**text** - Text of the comment.
-        <li>**cloud** - Identifier of the cloud
+        <li><b>id</b> - Identifying number of the file
+        <li><b>user</b> - Name of user
+        <li><b>text</b> - Text of the comment.
+        <li><b>cloud</b> - Identifier of the cloud
       </ul>
     </td>
   </tr>
@@ -3857,7 +3850,7 @@ comments”,
     <td>
       <span>RESOURCE_URL + comments</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/comments</span>
+      <span>http://demo.eyeos.com/comments</span>
     </td>
   </tr>
   <tr>
@@ -3889,7 +3882,7 @@ comments”,
   </tr>
 </table>
 
-<p>**deleteComment**(oauth, id, user, cloud, time_created)
+<p><b>deleteComment</b>(oauth, id, user, cloud, time_created)
 
 Delete a comment associated to a file shared on the cloud.
 
@@ -3910,14 +3903,14 @@ Delete a comment associated to a file shared on the cloud.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**id** - Identifying number of the file
-        <li>**user** - Name of user
-        <li>**text** - Text of the comment.
-        <li>**cloud** - Identifier of the cloud
-        <li>**time_created** - Date and time the comment was created
+        <li><b>id</b> - Identifying number of the file
+        <li><b>user</b> - Name of user
+        <li><b>text</b> - Text of the comment.
+        <li><b>cloud</b> - Identifier of the cloud
+        <li><b>time_created</b> - Date and time the comment was created
       </ul>
     </td>
   </tr>
@@ -3943,7 +3936,7 @@ addition to the accesstoken.
     <td>
       <span>RESOURCE_URL + comment/{id}/{user}/{cloud}/{time_created}</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/comment/11/tester1/ Stacksync/201506101548</span>
+      <span>http://demo.eyeos.com/comment/11/tester1/ Stacksync/201506101548</span>
     </td>
   </tr>
   <tr>
@@ -3964,7 +3957,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**getComments**(oauth, id, cloud)
+<p><b>getComments</b>(oauth, id, cloud)
 
 Obtain the list of comments of a file shared on the cloud
 
@@ -3985,11 +3978,11 @@ Obtain the list of comments of a file shared on the cloud
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**id** - Identifying number of the file
-        <li>**cloud** - Identifier of the cloud
+        <li><b>id</b> - Identifying number of the file
+        <li><b>cloud</b> - Identifier of the cloud
       </ul>
     </td>
   </tr>
@@ -4015,7 +4008,7 @@ addition to the accesstoken.
     <td>
       <span>RESOURCE_URL + comment/{id}/{cloud}</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/comment/2401/Stacksync</span>
+      <span>http://demo.eyeos.com/comment/2401/Stacksync</span>
     </td>
   </tr>
   <tr>
@@ -4036,7 +4029,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**insertEvent**(oauth, user, calendar, cloud, isallday, timestart, timeend, repetition,
+<p><b>insertEvent</b>(oauth, user, calendar, cloud, isallday, timestart, timeend, repetition,
 finaltype, finalvalue, subject, location, description, repeattype)
 
 Create a new event in the calendar.
@@ -4058,22 +4051,22 @@ Create a new event in the calendar.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**user** - eyeOS user.
-        <li>**calendar** - Calendar identifier.
-        <li>**cloud** - Identifier of the cloud where the calendar is saved.
-        <li>**isallday** - Specifies if the event takes up the whole day.
-        <li>**timestart** - Start date and time of the event.
-        <li>**timeend** - End date and time of the event.
-        <li>**repetition** - Specifies if the event is repeated on different days.
-        <li>**finaltype** - Final type of event.
-        <li>**finalvalue** - End date and time of the event if it goes on for several days.
-        <li>**subject** - Identifier of the event.
-        <li>**location** - Location of the event.
-        <li>**description** - Complementary information of the event.
-        <li>**repeattype** – How the event is repeated.
+        <li><b>user</b> - eyeOS user.
+        <li><b>calendar</b> - Calendar identifier.
+        <li><b>cloud</b> - Identifier of the cloud where the calendar is saved.
+        <li><b>isallday</b> - Specifies if the event takes up the whole day.
+        <li><b>timestart</b> - Start date and time of the event.
+        <li><b>timeend</b> - End date and time of the event.
+        <li><b>repetition</b> - Specifies if the event is repeated on different days.
+        <li><b>finaltype</b> - Final type of event.
+        <li><b>finalvalue</b> - End date and time of the event if it goes on for several days.
+        <li><b>subject</b> - Identifier of the event.
+        <li><b>location</b> - Location of the event.
+        <li><b>description</b> - Complementary information of the event.
+        <li><b>repeattype</b> – How the event is repeated.
       </ul>
     </td>
   </tr>
@@ -4102,7 +4095,7 @@ addition to the accesstoken.
     <td>
       <span>RESOURCE_URL + event</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/event</span>
+      <span>http://demo.eyeos.com/event</span>
     </td>
   </tr>
   <tr>
@@ -4144,7 +4137,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**deleteEvent**(oauth, user, calendar, cloud, timestart, timeend, isallday)
+<p><b>deleteEvent</b>(oauth, user, calendar, cloud, timestart, timeend, isallday)
 
 Delete an event in the calendar.
 
@@ -4165,15 +4158,15 @@ Delete an event in the calendar.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**user** - eyeOS user.
-        <li>**calendar** - Calendar identifier.
-        <li>**cloud** - Identifier of the cloud where the calendar is saved.
-        <li>**timestart** - Start date and time of the event.
-        <li>**timeend** - End date and time of the event.
-        <li>**isallday** - Specifies if the event takes up the whole day.
+        <li><b>user</b> - eyeOS user.
+        <li><b>calendar</b> - Calendar identifier.
+        <li><b>cloud</b> - Identifier of the cloud where the calendar is saved.
+        <li><b>timestart</b> - Start date and time of the event.
+        <li><b>timeend</b> - End date and time of the event.
+        <li><b>isallday</b> - Specifies if the event takes up the whole day.
       </ul>
     </td>
   </tr>
@@ -4203,7 +4196,7 @@ addition to the accesstoken.
       <span>RESOURCE_URL + event/{user}/{calendar}/{cloud}/
 {timestart}/{timeend}/{isallday}</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/event/eyeos/personal/Stacksync/
+      <span>http://demo.eyeos.com/event/eyeos/personal /Stacksync/
 201419160000/201419170000/0</span>
     </td>
   </tr>
@@ -4228,7 +4221,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**updateEvent**(oauth, user, calendar, cloud, isallday, timestart, timeend, repetition,
+<p><b>updateEvent</b>(oauth, user, calendar, cloud, isallday, timestart, timeend, repetition,
 finaltype, finalvalue, subject, location, description, repeattype)
 
 Update the event data in the calendar.
@@ -4250,23 +4243,23 @@ Update the event data in the calendar.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**user** - eyeOS user.
-        <li>**calendar** - Calendar identifier.
-        <li>**cloud** - Identifier of the cloud where the calendar is saved.
-        <li>**isallday** - Specifies if the event takes up the whole day.
-        <li>**timestart** - Start date and time of the event.
-        <li>**timeend** - End date and time of the event.
-        <li>**repetition** - Specifies if the event is repeated on different
+        <li><b>user</b> - eyeOS user.
+        <li><b>calendar</b> - Calendar identifier.
+        <li><b>cloud</b> - Identifier of the cloud where the calendar is saved.
+        <li><b>isallday</b> - Specifies if the event takes up the whole day.
+        <li><b>timestart</b> - Start date and time of the event.
+        <li><b>timeend</b> - End date and time of the event.
+        <li><b>repetition</b> - Specifies if the event is repeated on different
 days.
-        <li>**finaltype** - Final type of event.
-        <li>**finalvalue** - End date and time of the event if it goes on for several days.
-        <li>**subject** - Identifier of the event.
-        <li>**location** - Location of the event.
-        <li>**description** - Complementary information of the event.
-        <li>**repeattype** – How the event is repeated.
+        <li><b>finaltype</b> - Final type of event.
+        <li><b>finalvalue</b> - End date and time of the event if it goes on for several days.
+        <li><b>subject</b> - Identifier of the event.
+        <li><b>location</b> - Location of the event.
+        <li><b>description</b> - Complementary information of the event.
+        <li><b>repeattype</b> – How the event is repeated.
       </ul>
     </td>
   </tr>
@@ -4295,7 +4288,7 @@ days.
     <td>
       <span>RESOURCE_URL + event</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/event</span>
+      <span>http://demo.eyeos.com/event</span>
     </td>
   </tr>
   <tr>
@@ -4339,7 +4332,7 @@ days.
   </tr>
 </table>
 
-<p>**getEvents**(oauth, user, calendar, cloud)
+<p><b>getEvents</b>(oauth, user, calendar, cloud)
 
 Obtain a list with all the events in the calendar.
 
@@ -4360,12 +4353,12 @@ Obtain a list with all the events in the calendar.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**user** - eyeOS user.
-        <li>**calendar** - Calendar identifier.
-        <li>**cloud** - Identifier of the cloud where the calendar is saved.
+        <li><b>user</b> - eyeOS user.
+        <li><b>calendar</b> - Calendar identifier.
+        <li><b>cloud</b> - Identifier of the cloud where the calendar is saved.
       </ul>
     </td>
   </tr>
@@ -4395,7 +4388,7 @@ API
     <td>
       <span>RESOURCE_URL + event/{user}/{calendar}/{cloud}</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/event/eyeos/personal/Stacksync</span>
+      <span>http://demo.eyeos.com/event/eyeos/personal/ Stacksync</span>
     </td>
   </tr>
   <tr>
@@ -4419,7 +4412,7 @@ API
   </tr>
 </table>
 
-<p>**insertCalendar**(oauth, user, name, cloud, description, timezone)
+<p><b>insertCalendar</b>(oauth, user, name, cloud, description, timezone)
 
 Create a new calendar.
 
@@ -4440,14 +4433,14 @@ Create a new calendar.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**user** - eyeOS user.
-        <li>**name** – Calendar identifier..
-        <li>**cloud** - Identifier of the cloud where the calendar is saved.
-        <li>**description** - Complementary information of the calendar.
-        <li>**timezone** - Timezone of the calendar.
+        <li><b>user</b> - eyeOS user.
+        <li><b>name</b> – Calendar identifier..
+        <li><b>cloud</b> - Identifier of the cloud where the calendar is saved.
+        <li><b>description</b> - Complementary information of the calendar.
+        <li><b>timezone</b> - Timezone of the calendar.
       </ul>
     </td>
   </tr>
@@ -4473,7 +4466,7 @@ addition to the accesstoken.
     <td>
       <span>RESOURCE_URL + calendar</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/calendar</span>
+      <span>http://demo.eyeos.com/calendar</span>
     </td>
   </tr>
   <tr>
@@ -4506,7 +4499,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**deleteCalendar**(oauth, user, name, cloud)
+<p><b>deleteCalendar</b>(oauth, user, name, cloud)
 
 Delete a calendar.
 
@@ -4527,12 +4520,12 @@ Delete a calendar.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**user** - eyeOS user.
-        <li>**name** – Calendar identifier..
-        <li>**cloud** - Identifier of the cloud where the calendar is saved.
+        <li><b>user</b> - eyeOS user.
+        <li><b>name</b> - Calendar identifier..
+        <li><b>cloud</b> - Identifier of the cloud where the calendar is saved.
       </ul>
     </td>
   </tr>
@@ -4558,7 +4551,7 @@ addition to the accesstoken.
     <td>
       <span>RESOURCE_URL + calendar/{user}/{name}/{cloud}</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/calendar/eyeos/personal/Stacksync</span>
+      <span>http://demo.eyeos.com/calendar/eyeos/personal/ Stacksync</span>
     </td>
   </tr>
   <tr>
@@ -4579,7 +4572,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**updateCalendar**(oauth, user, name, cloud, description, timezone)
+<p><b>updateCalendar</b>(oauth, user, name, cloud, description, timezone)
 
 Update calendar data.
 
@@ -4600,14 +4593,14 @@ Update calendar data.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**user** - eyeOS user.
-        <li>**name** – Calendar identifier..
-        <li>**cloud** - Identifier of the cloud where the calendar is saved.
-        <li>**description** - Complementary information of the calendar.
-        <li>**timezone** - Timezone of the calendar.
+        <li><b>user</b> - eyeOS user.
+        <li><b>name</b> - Calendar identifier..
+        <li><b>cloud</b> - Identifier of the cloud where the calendar is saved.
+        <li><b>description</b> - Complementary information of the calendar.
+        <li><b>timezone</b> - Timezone of the calendar.
       </ul>
     </td>
   </tr>
@@ -4633,7 +4626,7 @@ addition to the accesstoken.
     <td>
       <span>RESOURCE_URL + calendar</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/calendar</span>
+      <span>http://demo.eyeos.com/calendar</span>
     </td>
   </tr>
   <tr>
@@ -4666,7 +4659,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**getCalendars**(oauth, user, cloud)
+<p><b>getCalendars</b>(oauth, user, cloud)
 
 Obtain the list with all the user's calendars
 
@@ -4687,11 +4680,11 @@ Obtain the list with all the user's calendars
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**user** - eyeOS user.
-        <li>**cloud** - Identifier of the cloud where the calendar is saved.
+        <li><b>user</b> - eyeOS user.
+        <li><b>cloud</b> - Identifier of the cloud where the calendar is saved.
       </ul>
     </td>
   </tr>
@@ -4717,7 +4710,7 @@ addition to the accesstoken.
     <td>
       <span>RESOURCE_URL + calendar/{user}/{cloud}</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/calendar/eyeos/Stacksync</span>
+      <span>http://demo.eyeos.com/calendar/eyeos/Stacksync</span>
     </td>
   </tr>
   <tr>
@@ -4738,7 +4731,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**getCalendarsAndEvents**(oauth, user, cloud)
+<p><b>getCalendarsAndEvents</b>(oauth, user, cloud)
 
 Obtain a list with all the user‟s calendars and events.
 
@@ -4759,11 +4752,11 @@ Obtain a list with all the user‟s calendars and events.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**user** - eyeOS user.
-        <li>**cloud** - Identifier of the cloud where the calendar is saved.
+        <li><b>user</b> - eyeOS user.
+        <li><b>cloud</b> - Identifier of the cloud where the calendar is saved.
       </ul>
     </td>
   </tr>
@@ -4795,7 +4788,7 @@ API
     <td>
       <span>RESOURCE_URL + calEvents/{user}/{cloud}</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/calEvents/eyeos/Stacksync</span>
+      <span>http://demo.eyeos.com/calEvents/eyeos/Stacksync</span>
     </td>
   </tr>
   <tr>
@@ -4821,7 +4814,7 @@ API
   </tr>
 </table>
 
-<p>**deleteCalendarsUser**(oauth, user, cloud)
+<p><b>deleteCalendarsUser<b>(oauth, user, cloud)
 
 Delete all the calendars and events of the user.
 
@@ -4842,11 +4835,11 @@ Delete all the calendars and events of the user.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**user** - eyeOS user.
-        <li>**cloud** - Identifier of the cloud where the calendar is saved.
+        <li><b>user</b> - eyeOS user.
+        <li><b>cloud</b> - Identifier of the cloud where the calendar is saved.
       </ul>
     </td>
   </tr>
@@ -4871,7 +4864,7 @@ addition to the accesstoken.
     <td>
       <span>RESOURCE_URL + calUser/{user}/{cloud}</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/calEvents/eyeos/Stacksync</span>
+      <span>http://demo.eyeos.com/calEvents/eyeos/Stacksync</span>
     </td>
   </tr>
   <tr>
@@ -4891,7 +4884,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**lockFile**(oauth, id, cloud, user, ipserver, datetime, timelimit)
+<p><b>lockFile</b>(oauth, id, cloud, user, ipserver, datetime, timelimit)
 
 Unblock an eyeDocs file.
 
@@ -4912,15 +4905,15 @@ Unblock an eyeDocs file.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**cloud** - Identifier of the cloud where the calendar is saved.
-        <li>**user** - eyeOS user.
-        <li>**ipserver** - IP address of the eyeOS server.
-        <li>**timelimit** - Maximum time in minutes to block a file.
-        <li>**datetime** - Current date and time
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>cloud</b> - Identifier of the cloud where the calendar is saved.
+        <li><b>user</b> - eyeOS user.
+        <li><b>ipserver</b> - IP address of the eyeOS server.
+        <li><b>timelimit</b> - Maximum time in minutes to block a file.
+        <li><b>datetime</b> - Current date and time
       </ul>
     </td>
   </tr>
@@ -4945,7 +4938,7 @@ addition to the accesstoken.
     <td>
       <span>RESOURCE_URL + lockFile</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/lockFile</span>
+      <span>http://demo.eyeos.com/lockFile</span>
     </td>
   </tr>
   <tr>
@@ -4978,7 +4971,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**updateDateTime**(oauth, id, cloud, user, ipserver, datetime)
+<p><b>updateDateTime</b>(oauth, id, cloud, user, ipserver, datetime)
 
 Update the metadata with the date and time of the latest change.
 
@@ -4999,14 +4992,14 @@ Update the metadata with the date and time of the latest change.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**cloud** - Identifier of the cloud where the calendar is saved.
-        <li>**user** - eyeOS user.
-        <li>**ipserver** - IP address of the eyeOS server.
-        <li>**datetime** - Current date and time
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>cloud</b> - Identifier of the cloud where the calendar is saved.
+        <li><b>user</b> - eyeOS user.
+        <li><b>ipserver</b> - IP address of the eyeOS server.
+        <li><b>datetime</b> - Current date and time
       </ul>
     </td>
   </tr>
@@ -5031,7 +5024,7 @@ addition to the accesstoken.
     <td>
       <span>RESOURCE_URL + updateTime</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/updateTime</span>
+      <span>http://demo.eyeos.com/updateTime</span>
     </td>
   </tr>
   <tr>
@@ -5063,7 +5056,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**unLockFile**(oauth, id, cloud, user, ipserver, datetime)
+<p><b>unLockFile</b>(oauth, id, cloud, user, ipserver, datetime)
 
 Unblock an eyeDocs file.
 
@@ -5084,14 +5077,14 @@ Unblock an eyeDocs file.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**cloud** - Identifier of the cloud where the calendar is saved.
-        <li>**user** - eyeOS user.
-        <li>**ipserver** - IP address of the eyeOS server.
-        <li>**datetime** - Current date and time
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>cloud</b> - Identifier of the cloud where the calendar is saved.
+        <li><b>user</b> - eyeOS user.
+        <li><b>ipserver</b> - IP address of the eyeOS server.
+        <li><b>datetime</b> - Current date and time
       </ul>
     </td>
   </tr>
@@ -5116,7 +5109,7 @@ addition to the accesstoken.
     <td>
       <span>RESOURCE_URL + unLockFile</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/unLockFile</span>
+      <span>http://demo.eyeos.com/unLockFile</span>
     </td>
   </tr>
   <tr>
@@ -5148,7 +5141,7 @@ addition to the accesstoken.
   </tr>
 </table>
 
-<p>**getMetadataFile**(oauth, id, cloud)
+<p><b>getMetadataFile</b>(oauth, id, cloud)
 
 Obtain the metadata of the file.
 
@@ -5169,11 +5162,11 @@ Obtain the metadata of the file.
     <td bgcolor="#C0C0C0">Parameters:</td>
     <td>
       <ul style="margin-left: 20px;padding: 0px;">
-        <li>**oauth** - OauthRequest object. Contains the values of the
+        <li><b>oauth</b> - OauthRequest object. Contains the values of the
 consumer key and secret of the configuration file. In
 addition to the accesstoken.
-        <li>**id** - Identifying number of the element in the specific cloud.
-        <li>**cloud** - Identifier of the cloud where the calendar is saved.
+        <li><b>id</b> - Identifying number of the element in the specific cloud.
+        <li><b>cloud</b> - Identifier of the cloud where the calendar is saved.
       </ul>
     </td>
   </tr>
@@ -5200,7 +5193,7 @@ addition to the accesstoken.
     <td>
       <span>RESOURCE_URL + lockFile/{id}/{cloud}</span><br>
       <span>Example:</span><br>
-      <span>http<nolink>://demo.eyeos.com/lockFile/2401/Stacksync</span>
+      <span>http://demo.eyeos.com/lockFile/2401/Stacksync</span>
     </td>
   </tr>
   <tr>
@@ -5208,7 +5201,7 @@ addition to the accesstoken.
     <td>GET</td>
   </tr>
   <tr>
-    <td style="color:green">Return:</td>
+    <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure:</span><br>
       <span style="margin-left:30px">- error: Error number</span><br>
