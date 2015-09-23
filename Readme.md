@@ -3399,8 +3399,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata of the element(s) or in case of error returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>- Metadata new directory</span><br>
     <span>{"status": "NEW",
