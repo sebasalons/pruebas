@@ -985,7 +985,7 @@ previously by the user *stacksync2*:
 <b>URL parameters:</b> { “<b>id</b>”: “1950”, “<b>user</b>”: “stacksync2”, “<b>cloud</b>”: “Stacksync”,
 ”<b>time_created</b>”: “201509071827” }
 
-<b>URL:</b> http://api.stacksync.com:8080/v1/comment/<b>:id</b>/<b>:user</b>/<b>:cloud</b>/<b>:time_created
+<b>URL:</b> http://api.stacksync.com:8080/v1/comment/<b>:id</b>/<b>:user</b>/<b>:cloud</b>/<b>:time_created</b>
 
 <p><b>Step 8:</b>
 
