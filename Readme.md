@@ -3073,21 +3073,21 @@ Update the metadata with the date and time of the latest change.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “updateDateTime”,</span><br>
-      <span style="margin-left:120px">“id”: “2150"</span><br>
-      <span style="margin-left:120px">“user”: “eyeos",</span><br>
-      <span style="margin-left:120px">“ipserver”: “192.168.56.101”,</span><br>
-      <span style="margin-left:120px">“datetime”: “2015-05-12 11:50:00”,</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “updateDateTime”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: “2150"</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“user”: “eyeos",</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“ipserver”: “192.168.56.101”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“datetime”: “2015-05-12 11:50:00”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -3095,7 +3095,7 @@ Update the metadata with the date and time of the latest change.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>{“updateFile”: true}</span><br>
@@ -3128,21 +3128,21 @@ Unblock an eyeDocs file.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “unLockFile”,</span><br>
-      <span style="margin-left:120px">“id”: “2150"</span><br>
-      <span style="margin-left:120px">“user”: “eyeos",</span><br>
-      <span style="margin-left:120px">“ipserver”: “192.168.56.101”,</span><br>
-      <span style="margin-left:120px">“datetime”: “2015-05-12 11:50:00”,</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “unLockFile”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: “2150"</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“user”: “eyeos",</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“ipserver”: “192.168.56.101”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“datetime”: “2015-05-12 11:50:00”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -3150,7 +3150,7 @@ Unblock an eyeDocs file.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>{“unLockFile”: true}</span><br>
@@ -3180,20 +3180,20 @@ Obtain the file structure of a file in the cloud.
     <td>
       <span>Example</span><br>
       <span>{</span><br>
-      <span style="margin-left:30px">“config”: { </span><br>
-      <span style="margin-left:95px">“cloud”: “Stacksync”,</span><br>
-      <span style="margin-left:95px">”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“token”: {</span><br>
-      <span style="margin-left:95px">“key”: “token1234”,</span><br>
-      <span style="margin-left:95px">“secret”: “secret1234”</span><br>
-      <span style="margin-left:90px">},</span><br>
-      <span style="margin-left:30px">“metadata”: {</span><br>
-      <span style="margin-left:120px">“type”: “get”,</span><br>
-      <span style="margin-left:120px">“file”: false,</span><br>
-      <span style="margin-left:120px">“id”: “1653”,</span><br>
-      <span style="margin-left:120px">“contents”: true</span><br>
-      <span style="margin-left:115px">}</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“config”: { </span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“cloud”: “Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;”resource_url”:”http<bikubj>://ast3-deim.urv.cat/v1/”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“token”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“key”: “token1234”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“secret”: “secret1234”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“metadata”: {</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“type”: “get”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“file”: false,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“id”: “1653”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“contents”: true</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
   <tr>
@@ -3201,7 +3201,7 @@ Obtain the file structure of a file in the cloud.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure.</span><br>
-      <span style="margin-left:30px">- error. Error number.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error. Error number.</span><br><br>
 
       <span>Examples:</span><br>
       <span>{
@@ -3275,7 +3275,7 @@ list. Used when “Id” is a directory. (Optional)
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata of the element(s) or in case of error returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br><br>
     <span>Examples:</span><br>
     <span>"filename":"clients",
 "id":9873615,
@@ -3341,8 +3341,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata of the element(s) or in case of error returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>{
 "status": "RENAMED",
@@ -3551,8 +3551,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata of the element or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>- Delete a directory</span><br>
     <span>{"status": "DELETED",
@@ -3620,8 +3620,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata of the element or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>{ "status": "CHANGED",
 "is_folder": false,
@@ -3698,8 +3698,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>True or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Example:</span><br>
     <span>{"error":403, "description": "Forbidden"}</span>
   </td>
@@ -3738,8 +3738,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>List of users or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Example:</span><br>
     <span>[{"joined_at": "2014-05-27", "is_owner": true, "name": "tester1",
 "email": "tester1@test.com"}]</span><br><br>
@@ -3782,8 +3782,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>True or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Example:</span><br>
     <span>{"error":403, "description": "Forbidden"}</span>
   </td>
@@ -3825,8 +3825,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>{“id”:
 “2401”,
@@ -3859,10 +3859,10 @@ comments”,
     <td bgcolor="#C0C0C0">Body:</td>
     <td>
       <span>{</span><br>
-      <span style="margin-left:30px">“id”: “2401”,</span><br>
-      <span style="margin-left:30px">“user”: “tester1”,</span><br>
-      <span style="margin-left:30px">”text”:”Test comments”,</span><br>
-      <span style="margin-left:30px">”cloud”:”Stacksync”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“id”: “2401”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;“user”: “tester1”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;”text”:”Test comments”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;”cloud”:”Stacksync”</span><br>
       <span>}</span>
     </td>
   </tr>
@@ -3870,8 +3870,8 @@ comments”,
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>{“id”: “2401”,“user”: “tester1”,”text”: ”Test comments”,
 ”cloud”:”Stacksync, ”status”:”NEW”, ”time_created”:”201506101548”}</span><br><br>
@@ -3916,8 +3916,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>{“id”: “2401”,“user”: “tester1”,”text”: ”Test comments”,
 ”cloud”:”Stacksync,”status”:”DELETED”, ”time_created”:”201506101548”}</span><br><br>
@@ -3945,8 +3945,8 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>{“id”: “2401”,“user”: “tester1”,”text”:”Test comments”,
 ”cloud”:”Stacksync, ”status”:”DELETED”, ”time_created”:”201506101548”}}</span><br><br>
@@ -3988,8 +3988,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata vector or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>[{“id”: “2401”,“user”: “tester1”,”text”: ”Test comments”,
 ”cloud”:”Stacksync,”status”:”NEW”, ”time_created”:”201506101548”}]</span><br><br>
@@ -4017,8 +4017,8 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata vector or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>[{“id”: “2401”,“user”: “tester1”,”text”:”Test comments”,
 ”cloud”:”Stacksync,”status”:”NEW”, ”time_created”:”201506101548”}]</span><br><br>
@@ -4072,8 +4072,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>{“user”:”eyeos”, ”calendar”:”personal”, ”isallday”:0,
 ”timestart”:“201419160000”, ”timeend”:“201419170000”,
@@ -4104,19 +4104,19 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Body:</td>
     <td>
       <span>{</span><br>
-      <span style="margin-left:30px">"user":”eyeos”,</span><br>
-      <span style="margin-left:30px">"calendar":”personal”,</span><br>
-      <span style="margin-left:30px">"cloud":”Stacksync”,</span><br>
-      <span style="margin-left:30px">"isallday":0,</span><br>
-      <span style="margin-left:30px">"timestart":“201419160000”,</span><br>
-      <span style="margin-left:30px">"timeend":”201419170000”,</span><br>
-      <span style="margin-left:30px">"repetition":”null”,</span><br>
-      <span style="margin-left:30px">"finaltype":”1”,</span><br>
-      <span style="margin-left:30px">"finalvalue":”0”,</span><br>
-      <span style="margin-left:30px">"subject":”test”,</span><br>
-      <span style="margin-left:30px">"location":”Barcelona”,</span><br>
-      <span style="margin-left:30px">"description":”detail”,</span><br>
-      <span style="margin-left:30px">"repeattype":”n</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"user":”eyeos”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"calendar":”personal”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"cloud":”Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"isallday":0,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"timestart":“201419160000”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"timeend":”201419170000”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"repetition":”null”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"finaltype":”1”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"finalvalue":”0”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"subject":”test”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"location":”Barcelona”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"description":”detail”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"repeattype":”n</span><br>
       <span>}</span>
     </td>
   </tr>
@@ -4124,8 +4124,8 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>{“user”: ”eyeos”, ”calendar”: ”personal”, ”isallday”: 0, ”timestart”: “201419160000”, ”timeend”: “201419170000”,
 ”repetition”: ”null”, ”finaltype”: ”1”, ”finalvalue”:   ”0”, ”subject”: ”test”, ”location”: ”Barcelona”, ”description”: ”detail”, ”repeattype”: ”n”,
@@ -4172,8 +4172,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>{“user”: ”eyeos”, ”calendar”: ”personal”, ”isallday”: 0,
 ”timestart”: “201419160000”, ”timeend”: “201419170000”,
@@ -4206,8 +4206,8 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>{“user”: ”eyeos”, ”calendar”: ”personal”, ”isallday”: 0,
 ”timestart”: “201419160000”, ”timeend”: “201419170000”,
@@ -4265,8 +4265,8 @@ days.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>{“user”: ”eyeos”, ”calendar”: ”personal”, ”isallday”: 0,
 ”timestart”: “201419160000”, ”timeend”: “201419170000”,
@@ -4297,19 +4297,19 @@ days.
     <td bgcolor="#C0C0C0">Body:</td>
     <td>
       <span>{</span><br>
-      <span style="margin-left:30px">"user":”eyeos”,</span><br>
-      <span style="margin-left:30px">"calendar":”personal”,</span><br>
-      <span style="margin-left:30px">"cloud":”Stacksync”,</span><br>
-      <span style="margin-left:30px">"isallday":0,</span><br>
-      <span style="margin-left:30px">"timestart":“201419160000”,</span><br>
-      <span style="margin-left:30px">"timeend":”201419170000”,</span><br>
-      <span style="margin-left:30px">"repetition":”null”,</span><br>
-      <span style="margin-left:30px">"finaltype":”1”,</span><br>
-      <span style="margin-left:30px">"finalvalue":”0”,</span><br>
-      <span style="margin-left:30px">"subject":”test”,</span><br>
-      <span style="margin-left:30px">"location":”Barcelona”,</span><br>
-      <span style="margin-left:30px">"description":”detail”,</span><br>
-      <span style="margin-left:30px">"repeattype":”n</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"user":”eyeos”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"calendar":”personal”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"cloud":”Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"isallday":0,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"timestart":“201419160000”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"timeend":”201419170000”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"repetition":”null”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"finaltype":”1”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"finalvalue":”0”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"subject":”test”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"location":”Barcelona”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"description":”detail”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"repeattype":”n</span><br>
       <span>}</span>
     </td>
   </tr>
@@ -4317,8 +4317,8 @@ days.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>{“user”: ”eyeos”, ”calendar”: ”personal”, ”isallday”: 0,
 ”timestart”: “201419160000”, ”timeend”: “201419170000”,
@@ -4364,8 +4364,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata vector or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>[{“user”: ”eyeos”, ”calendar”: ”personal”, ”isallday”: 0,
 ”timestart”: “201419160000”, ”timeend”: “201419170000”,
@@ -4397,8 +4397,8 @@ API
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata vector or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>[{“user”: ”eyeos”, ”calendar”: ”personal”, ”isallday”: 0,
 ”timestart”: “201419160000”, ”timeend”: “201419170000”,
@@ -4446,8 +4446,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>{“user”:”eyeos”,”name”:”personal”, ”description”:”detail”,”timezone”:”0”,
 “cloud”: ”Stacksync”, “status”: ”NEW”, ”type”: ”calendar”}</span><br><br>
@@ -4475,11 +4475,11 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Body:</td>
     <td>
       <span>{</span><br>
-      <span style="margin-left:30px">"user":”eyeos”,</span><br>
-      <span style="margin-left:30px">"name":”personal”,</span><br>
-      <span style="margin-left:30px">"cloud":”Stacksync”,</span><br>
-      <span style="margin-left:30px">"description":”detail”,</span><br>
-      <span style="margin-left:30px">"timezone":”0”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"user":”eyeos”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"name":”personal”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"cloud":”Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"description":”detail”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"timezone":”0”</span><br>
       <span>}</span>
     </td>
   </tr>
@@ -4487,8 +4487,8 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>{“user”:”eyeos”, ”name”:”personal”, ”description”:”detail”, ”timezone”:”0”,
 “cloud”: ”Stacksync”, “status”: ”NEW”, ”type”: ”calendar”}</span><br><br>
@@ -4531,8 +4531,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>{“user”:”eyeos” ,”name”:”personal”, ”description”:”detail”, ”timezone”:”0”,
 “cloud”: ”Stacksync”, “status”: ”DELETED”, ”type”: ”calendar”}</span><br><br>
@@ -4560,8 +4560,8 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>{“user”: ”eyeos”,”name”: ”personal”,”description”: ”detail”,”timezone”:”0”,
 “cloud”: ”Stacksync”, “status”: ”DELETED”, ”type”: ”calendar”}</span><br><br>
@@ -4606,8 +4606,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>{“user”: ”eyeos”,”name”: ”personal”,”description”: ”detail”,”timezone”:”0”,
 “cloud”: ”Stacksync”, “status”: ”CHANGED”, ”type”: ”calendar”}</span><br><br>
@@ -4635,11 +4635,11 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Body:</td>
     <td>
       <span>{</span><br>
-      <span style="margin-left:30px">"user":”eyeos”,</span><br>
-      <span style="margin-left:30px">"name":”personal”,</span><br>
-      <span style="margin-left:30px">"cloud":”Stacksync”,</span><br>
-      <span style="margin-left:30px">"description":”detail”,</span><br>
-      <span style="margin-left:30px">"timezone":”0”</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"user":”eyeos”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"name":”personal”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"cloud":”Stacksync”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"description":”detail”,</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;"timezone":”0”</span><br>
       <span>}</span>
     </td>
   </tr>
@@ -4647,8 +4647,8 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>{“user”:”eyeos”, ”name”: ”personal”,”description”: ”detail”,”timezone”:”0”,
 “cloud”: ”Stacksync”, “status”: ”CHANGED”, ”type”: ”calendar”}</span><br><br>
@@ -4690,8 +4690,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata vector or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>[{“user”: ”eyeos”, ”name”: ”personal”, ”description”: ”detail”,”timezone”:”0”,
 “cloud”: ”Stacksync”, “status”: ”CHANGED”, ”type”: ”calendar”}]</span><br><br>
@@ -4719,8 +4719,8 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata vector or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>[{“user”: ”eyeos”, ”name”: ”personal”, ”description”: ”detail”,”timezone”:”0”,
 “cloud”: ”Stacksync”, “status”: ”CHANGED”, ”type”: ”calendar”}]</span><br><br>
@@ -4762,8 +4762,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata vector or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>[{“user”:”eyeos”, ”name”: ”personal”, ”description”: ”detail”, ”timezone”:”0”,
 “cloud”: ”Stacksync”, “status”: ”NEW”, ”type”: ”calendar”},
@@ -4797,8 +4797,8 @@ API
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata vector or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>[{“user”: ”eyeos”, ”name”: ”personal”, ”description”: ”detail”,”timezone”:”0”,
 “cloud”: ”Stacksync”, “status”: ”NEW”, ”type”: ”calendar”},
@@ -4845,8 +4845,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>{“delete”: “true”}</span><br>
     <span>{"error":404, "description": "Incorrect params"}</span>
@@ -4873,8 +4873,8 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>{“delete”: “true”}</span><br>
       <span>{"error":404, "description": "Incorrect params"}<span>
@@ -4919,8 +4919,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>{“lockFile”: “true”}</span><br>
     <span>{"error":404, "description": "Incorrect params"}</span>
@@ -4947,12 +4947,12 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Body:</td>
     <td>
       <span>{</span><br>
-        <span style="margin-left:30px">"id":”2401”,</span><br>
-        <span style="margin-left:30px">"cloud":”Stacksync”,</span><br>
-        <span style="margin-left:30px">"user":”eyeos”,</span><br>
-        <span style="margin-left:30px">"ipserver":”demo.eyeos.com”,</span><br>
-        <span style="margin-left:30px">"datetime":”201419170000”,</span><br>
-        <span style="margin-left:30px">"timelimit":10</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"id":”2401”,</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"cloud":”Stacksync”,</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"user":”eyeos”,</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"ipserver":”demo.eyeos.com”,</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"datetime":”201419170000”,</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"timelimit":10</span><br>
         <span>}</span>
     </td>
   </tr>
@@ -4960,8 +4960,8 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>{“lockFile”: “true”}</span><br>
       <span>{"error":404, "description": "Incorrect params"}<span>
@@ -5005,8 +5005,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>{“updateFile”: “true”}</span><br>
     <span>{"error":404, "description": "Incorrect params"}</span>
@@ -5033,11 +5033,11 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Body:</td>
     <td>
       <span>{</span><br>
-        <span style="margin-left:30px">"id":”2401”,</span><br>
-        <span style="margin-left:30px">"cloud":”Stacksync”,</span><br>
-        <span style="margin-left:30px">"user":”eyeos”,</span><br>
-        <span style="margin-left:30px">"ipserver":”demo.eyeos.com”,</span><br>
-        <span style="margin-left:30px">"datetime":”201419170000”,</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"id":”2401”,</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"cloud":”Stacksync”,</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"user":”eyeos”,</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"ipserver":”demo.eyeos.com”,</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"datetime":”201419170000”,</span><br>
         <span>}</span>
     </td>
   </tr>
@@ -5045,8 +5045,8 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>{“updateFile”: “true”}</span><br>
       <span>{"error":404, "description": "Incorrect params"}<span>
@@ -5090,8 +5090,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>{“unLockFile”: true}</span><br>
     <span>{"error":404, "description": "Incorrect params"}</span>
@@ -5118,11 +5118,11 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Body:</td>
     <td>
       <span>{</span><br>
-        <span style="margin-left:30px">"id":”2401”,</span><br>
-        <span style="margin-left:30px">"cloud":”Stacksync”,</span><br>
-        <span style="margin-left:30px">"user":”eyeos”,</span><br>
-        <span style="margin-left:30px">"ipserver":”demo.eyeos.com”,</span><br>
-        <span style="margin-left:30px">"datetime":”201419170000”,</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"id":”2401”,</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"cloud":”Stacksync”,</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"user":”eyeos”,</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"ipserver":”demo.eyeos.com”,</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;"datetime":”201419170000”,</span><br>
         <span>}</span>
     </td>
   </tr>
@@ -5130,8 +5130,8 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>{“unLockFile”: true}</span><br>
       <span>{"error":404, "description": "Incorrect params"}<span>
@@ -5172,8 +5172,8 @@ addition to the accesstoken.
   <td bgcolor="#C0C0C0">Return:</td>
   <td>
     <span>Metadata or in case of an error it returns an error structure:</span><br>
-    <span style="margin-left:30px">- error: Error number</span><br>
-    <span style="margin-left:30px">- description: Error description.</span><br><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
     <span>Examples:</span><br>
     <span>{“id”: ”2150”, ”user”: ”eyeos”, ”cloud”: ”Stacksync”,
 ”ipserver”: ”192.168.56.101”, “datetime”:”2012-05-12 11:50:00”,
@@ -5202,8 +5202,8 @@ addition to the accesstoken.
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
       <span>Metadata or in case of an error it returns an error structure:</span><br>
-      <span style="margin-left:30px">- error: Error number</span><br>
-      <span style="margin-left:30px">- description: Error description.</span><br><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- error: Error number</span><br>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- description: Error description.</span><br><br>
       <span>Examples:</span><br>
       <span>{“id”: ”2150”, ”user”: ”eyeos”, ”cloud”: ”Stacksync”,
 ”ipserver”: ”192.168.56.101”, “datetime”: ”2012-05-12 11:50:00”, ”status”: ”open”}</span><br>
