@@ -359,12 +359,12 @@ Below the communication dialog box is shown:
 
 <center><img src=img/image3.jpg/></center>
 
-<p><b>Step 1:
+<p><b>Step 1:</b>
 
 Request the key and secret token from Stacksync that identifies eyeOS as a resource
 user of CloudSpaces. This communication was carried out via email.
 
-<p><b>Step 2:
+<p><b>Step 2:</b>
 
 Request the token and provide Stacksync with the forwarding url to eyeOS once the
 user has given authorization.
@@ -372,7 +372,7 @@ user has given authorization.
 Stacksync responds to the aforementioned request with a valid token and authorization
 url.
 
-<p><b>Step 3:
+<p><b>Step 3:</b>
 
 Redirect the user to the authorization url where the user gives eyeOS access to their
 private area.
@@ -380,7 +380,7 @@ private area.
 Once Stacksync verifies the user, the user is redirected to the eyeOS url provided in
 the previous step.
 
-<p><b>Step 4:
+<p><b>Step 4:</b>
 
 Request the access token and secret token from Stacksync, which will be used to
 identify eyeOS when it accesses the private area of the user in CloudSpaces.
@@ -551,7 +551,7 @@ B)* and the eyeOS platform:
 
 <center><img src=img/image20.jpg/></center>
 
-<p><b>Step 1:
+<p><b>Step 1:</b>
 
 The user makes a request to Personal Cloud A with the URL and a valid ACCESS
 TOKEN from Personal Cloud A, to list all of the directories and files that a directory
@@ -559,18 +559,18 @@ identified with a specific ID contains
 
 <center><img src=img/image21.jpg/></center>
 
-<p><b>Step 2:
+<p><b>Step 2:</b>
 
 Personal Cloud A returns a structure of directories and files. In this structure it is
 possible to find directories shared with Personal Cloud B. The feature which identifies
 these directories is a URL and a valid ACCESS TOKEN from Personal Cloud B.
 
-<p><b>Step 3:
+<p><b>Step 3:</b>
 
 To list the content of this directory, the user makes a request to the API of Personal
 Cloud B with the URL, directory ID, and ACCESS TOKEN received in Step 2.
 
-<p><b>Step 4:
+<p><b>Step 4:</b>
 
 Personal Cloud B returns a structure of directories and files corresponding to the
 directory specified in the URL. From this point, all requests implemented in the Storage
@@ -781,7 +781,7 @@ The user *stacksync (User A)* gets permission to edit the requested document.
 
 {"lockFile":true}
 
-<p><b>Step 3:
+<p><b>Step 3:</b>
 
 The user *stacksync2 (User B)* opens the same document that the user *stacksync (User
 A)* is editing. It is confirmed that the user does not have permission to edit the
@@ -794,7 +794,7 @@ The same call is made as in Step 1:
 <b>POST:</b> {"id":"1980", "cloud": "Stacksync", "user": "stacksync2", ,"ipserver":
 "192.68.56.101, "datetime": "2015-05-12 10:55:00", "timelimit":10}
 
-<p><b>Step 4:
+<p><b>Step 4:</b>
 
 The user *stacksync2 (User B)* is informed that they do not have permission to edit the
 document:
@@ -806,7 +806,7 @@ document:
 <p>In the eyeDocs application this document will be identified with the label "(Read Only)"
 in the title bar and the Menu, Toolbar, and document container will be blocked.
 
-<p><b>Step 5:
+<p><b>Step 5:</b>
 
 The user *stacksync (User A)* updates the content of the document. Each content
 update causes the time and date of the last document update to change to current
@@ -824,21 +824,21 @@ It returns metadata showing that the update has been made:
 
 {"updateFile":true}
 
-<p><b>Step 6:
+<p><b>Step 6:</b>
 
 The user *stacksync (User A)* still has permission to edit the document.
 
-<p><b>Step 7:
+<p><b>Step 7:</b>
 
 Every 10 seconds the user *stacksync2 (User B)* checks if the document is still being
 blocked by the user *stacksync (User A)*. As it continues to be blocked the user makes a
 request for the content of the document.
 
-<p><b>Step 8:
+<p><b>Step 8:</b>
 
 The content is updated in the eyeDocs document of the user *stacksync2 (User B).*
 
-<p><b>Step 9:
+<p><b>Step 9:</b>
 
 The user *stacksync (User A)* closes the document and frees the editing permissions.
 
@@ -852,12 +852,12 @@ It returns metadata that states that the file has been freed:
 
 {"unLockFile":true}
 
-<p><b>Step 10:
+<p><b>Step 10:</b>
 
 User B checks if the document is still being blocked by User A. Since it has been freed,
 User B unblocks it and makes a request to recover the content of the document.
 
-<p><b>Step 11:
+<p><b>Step 11:</b>
 
 The same procedure is carried out as in Step 8 and the following message appears:
 
@@ -903,7 +903,7 @@ users:
 
 <center><img src="img/image36.jpg"/></center>
 
-<p><b>Step 1:
+<p><b>Step 1:</b>
 
 When selecting a file shared with other users from the same or different cloud, when
 clicking on the “Comments” tab of the file *2005 12 10-w50s.flv* (id:1950) located in the
@@ -916,7 +916,7 @@ Stacksync token to obtain the comments related to the file:
 
 <center><img src="img/image37.jpg"/></center>
 
-<p><b>Step 2:
+<p><b>Step 2:</b>
 
 It returns metadata with the list of comments associated to the file:
 
@@ -928,7 +928,7 @@ It returns metadata with the list of comments associated to the file:
 
 <p>The comments are shown in a list which shows the most current comments first.
 
-<p><b>Step 3:
+<p><b>Step 3:</b>
 
 Clicking on the New button will bring up a form which will allow the user *stacksync2* to
 insert a comment associated to the shared file.
@@ -942,18 +942,18 @@ file on Stacksync:
 
 <b>POST:</b> { “id”: “1950”, “user”: “stacksync2”, “cloud”: “Stacksync”, “text”: “Test comment” }
 
-<p><b>Step 4:
+<p><b>Step 4:</b>
 
 It returns metadata with the data of the new comment.
 
 { “id”: “1950”, “user”:“stacksync2”, “cloud”:“Stacksync”, “text”: “Test comment”,
 “time_created”: “201509071827”, “status”: “NEW” }
 
-<p><b>Step 5:
+<p><b>Step 5:</b>
 
 The user *stacksync* makes a query as in Step 1.
 
-<p><b>Step 6:
+<p><b>Step 6:</b>
 
 It returns metadata with the comment introduced by the user *stacksync2*:
 
@@ -977,7 +977,7 @@ them will be disabled.
 The change of state is reversible, so if the file is shared again, options for inserting and
 deleting comments will automatically be enabled again.
 
-<p><b>Step 7:
+<p><b>Step 7:</b>
 
 A call is made using the DELETE method to the Sync API to delete the comment made
 previously by the user *stacksync2*:
@@ -987,7 +987,7 @@ previously by the user *stacksync2*:
 
 <b>URL:</b> http://api.stacksync.com:8080/v1/comment/<b>:id</b>/<b>:user</b>/<b>:cloud</b>/<b>:time_created
 
-<p><b>Step 8:
+<p><b>Step 8:</b>
 
 It returns metadata with the data of the deleted comment.
 
@@ -1031,7 +1031,7 @@ The synchronization of calendars is detailed in the following diagram:
 
 <center><img src=img/image42.jpg/></center>
 
-<p><b>Step 1:
+<p><b>Step 1:</b>
 
 The user *stacksync (User A)*, logged into eyeOS, makes a request to the cloud to
 obtain a list with all their calendars.
@@ -1042,7 +1042,7 @@ A GET call is made to the Sync API using a valid Stacksync token:
 
 <b>URL:</b> http://api.stacksync.com:8080/v1/calendar/<b>:user</b>/<b>:cloud
 
-<p><b>Step 2:
+<p><b>Step 2:</b>
 
 It returns metadata with the list of calendars:
 
@@ -1056,7 +1056,7 @@ platform. If the answer is affirmative, the new calendar is added to the list.
 
 <center><img src=img/image43.jpg/></center>
 
-<p><b>Step 3:
+<p><b>Step 3:</b>
 
 The user *stacksync (User A)* creates a new calendar using the New calendar button
 and specifying the name that they want it to have on the cloud:
@@ -1071,7 +1071,7 @@ and specifying the name that they want it to have on the cloud:
 <b>POST:</b> {"user": "stacksync", "name" : ”Calendar 2, "cloud": "Stacksync", "description":
 "Test Calendar2","timezone":0}
 
-<p><b>Step 4:
+<p><b>Step 4:</b>
 
 It returns metadata with the data of the new calendar.
 
@@ -1082,37 +1082,37 @@ It returns metadata with the data of the new calendar.
 
 <p>The list of calendars is updated with the data of the new calendar.
 
-<p><b>Step 5:
+<p><b>Step 5:</b>
 
 The user *stacksync (User A)*, logged in on another platform, makes a request to obtain
 the list of calendars. The calendar introduced previously on eyeOS is included on this
 list.
 
-<p><b>Step 6:
+<p><b>Step 6:</b>
 
 The platform will update the calendars of the user, with the data obtained in the
 response to the request.
 
-<p><b>Step 7:
+<p><b>Step 7:</b>
 
 The user *stacksync (User A)* creates a new calendar on this platform, identifying with a
 name on the cloud.
 
-<p><b>Step 8:
+<p><b>Step 8:</b>
 
 The platform refreshes the list of calendars including the new calendar.
 
-<p><b>Step 9:
+<p><b>Step 9:</b>
 
 The calendar application checks every 20 seconds to see if a change has been made
 in the user's calendar. When a request is made to obtain the list of calendars, it checks
 if a new calendar has been created from another platform.
 
-<p><b>Step 10:
+<p><b>Step 10:</b>
 
 The list of calendars is updated, adding the calendar created from another platform.
 
-<p><b>Step 11:
+<p><b>Step 11:</b>
 
 The user *stacksync (User A)* deletes a calendar form the context menu:
 
@@ -1129,17 +1129,17 @@ It returns metadata with the data of the deleted calendar.
 {"type":"calendar" ,"user": "stacksync" , "name": "Calendar 2", "cloud": "Stacksync",
 "description": "Test calendar 2, "timezone": 0,"status": "DELETED"}
 
-<p><b>Step 12:
+<p><b>Step 12:</b>
 
 The list of calendars is updated, deleting the selected calendar.
 
-<p><b>Step 13:
+<p><b>Step 13:</b>
 
 The user *stacksync (User A)* makes a request on the other platform to obtain a list of
 their calendars. They check whether any change has been made to the calendars from
 another platform.
 
-<p><b>Step 14:
+<p><b>Step 14:</b>
 
 The platform deletes the calendar deleted with eyeOS from the list.
 
@@ -1152,7 +1152,7 @@ The synchronization of events is detailed in the following diagram:
 
 <center><img src=img/image47.jpg/></center>
 
-<p><b>Step 1:
+<p><b>Step 1:</b>
 
 The user *stacksync (User A)*, logged into eyeOS, selects the calendars they wish to
 view and makes a request to obtain all of the events associated to the calendar which
@@ -1164,7 +1164,7 @@ A GET call is made to the Sync API using a valid Stacksync token:
 
 <b>URL:</b> http://api.stacksync.com:8080/v1/event/<b>:user</b>/<b>:calendar</b>/<b>:cloud
 
-<p><b>Step 2:
+<p><b>Step 2:</b>
 
 It returns metadata with the events associated to *Calendar 1*:
 
@@ -1180,7 +1180,7 @@ by the user. Events can be viewed by day, week, or month.
 
 <p> In this case, the user has selected the option to view events by week.
 
-<p><b>Step 3:
+<p><b>Step 3:</b>
 
 When clicking on a cell in the calendar, a dialog box is shown which allows users to
 insert an event and associate it with a particular calendar:
@@ -1196,7 +1196,7 @@ insert an event and associate it with a particular calendar:
 "finaltype": "1", "finalvalue": "0", "subject" :"Test", "location": "Barcelona", "description":
 "Test", "repeattype":"n"}
 
-<p><b>Step 4:
+<p><b>Step 4:</b>
 
 It returns metadata with the data of the event introduced in the calendar.
 
@@ -1210,17 +1210,17 @@ Calendar introduces the details of the new events in the calendar cells.
 It checks every 10 seconds if any change has been made in the events from another
 platform. If they have, the calendar cells are refreshed with the updated events.
 
-<p><b>Step 5:
+<p><b>Step 5:</b>
 
 From a different platform, the user *stacksync (User A)* makes a query to obtain a list of
 events associated to the selected calendar. This list includes the event created
 previously from the eyeOS platform.
 
-<p><b>Step 6:
+<p><b>Step 6:</b>
 
 The platform updates its list of events and displays them on the screen.
 
-<p><b>Step 7:
+<p><b>Step 7:</b>
 
 The user *stacksync (User A)* can edit all the information related to the event. If the
 platform used is eyeOS, they need to click on a previously entered event. The following
@@ -1237,7 +1237,7 @@ dialog box is displayed:
 "finaltype": "1", "finalvalue": "0", "subject" :"Test", "location": "Barcelona",
 <b>"description": "Detail Test"</b>, "repeattype":"n"}
 
-<p><b>Step 8:
+<p><b>Step 8:</b>
 
 It returns metadata with the data of the updated calendar.
 
@@ -1248,17 +1248,17 @@ It returns metadata with the data of the updated calendar.
 
 The platform updates the event with the data received from the cloud.
 
-<p><b>Step 9:
+<p><b>Step 9:</b>
 
 The calendar application checks every 10 seconds whether changes have been made
 to the events associated to the calendar. In this case, it finds that there are updates to
 an event made from a different platform.
 
-<p><b>Step 10:
+<p><b>Step 10:</b>
 
 The event is updated locally with the data received from the cloud.
 
-<p><b>Step 11:
+<p><b>Step 11:</b>
 
 The user *stacksync (User A)* can delete an event by clicking on the event and selecting
 delete from the dialog box to edit the event.
@@ -1271,16 +1271,16 @@ A DELETE call is made to the Sync API to delete the selected event:
 <b>URL:</b>http://api.stacksync.com:8080/v1/event/<b>:user</b>/<b>:calendar</b>/<b>:cloud</b>/<b>:timestart</b>/
 <b>:timeend</b>/<b>:isallday
 
-<p><b>Step 12:
+<p><b>Step 12:</b>
 
 The event is deleted from the calendar cell.
 
-<p><b>Step 13:
+<p><b>Step 13:</b>
 
 The platform makes a query to check if any of the events have been changed. In this
 case it is seen that an event has been deleted.
 
-<p><b>Step 14:
+<p><b>Step 14:</b>
 
 The platform deletes the event previously deleted from eyeOS from its calendar.
 
