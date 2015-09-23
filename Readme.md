@@ -4814,7 +4814,7 @@ API
   </tr>
 </table>
 
-<p><b>deleteCalendarsUser<b>(oauth, user, cloud)
+<p><b>deleteCalendarsUser</b>(oauth, user, cloud)
 
 Delete all the calendars and events of the user.
 
