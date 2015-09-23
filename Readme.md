@@ -1122,7 +1122,7 @@ The user *stacksync (User A)* deletes a calendar form the context menu:
 
 <b>URL parameters:</b> {“<b>user</b>”: “stacksync”, “<b>name</b>”: “Calendar 2”, “<b>cloud</b>”: “Stacksync”}
 
-<b>URL:</b> http://api.stacksync.com:8080/v1/calendar/<b>:user</b>/<b>:name</b>/<b>:cloud
+<b>URL:</b> http://api.stacksync.com:8080/v1/calendar/<b>:user</b>/<b>:name</b>/<b>:cloud</b>
 
 It returns metadata with the data of the deleted calendar.
 
