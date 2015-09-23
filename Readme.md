@@ -1040,7 +1040,7 @@ A GET call is made to the Sync API using a valid Stacksync token:
 
 <b>URL parameters:</b> { “<b>user</b>”: “stacksync”, “<b>cloud</b>”: “Stacksync”}
 
-<b>URL:</b> http://api.stacksync.com:8080/v1/calendar/<b>:user</b>/<b>:cloud
+<b>URL:</b> http://api.stacksync.com:8080/v1/calendar/<b>:user</b>/<b>:cloud</b>
 
 <p><b>Step 2:</b>
 
