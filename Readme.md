@@ -1230,7 +1230,7 @@ dialog box is displayed:
 
 <p>A PUT call is made to the Sync API to update the description of the event.
 
-<b>URL: http://api.stacksync.com:8080/v1/event
+<b>URL:</b> http://api.stacksync.com:8080/v1/event
 
 <b>POST:</b> {"user": "stacksync", "calendar": "Calendar 1", "cloud": "Stacksync", "isallday": 0,
 "timestart": "20150828120000", "timeend": "20150828130000", "repetition": "None",
