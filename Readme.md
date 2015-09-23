@@ -912,7 +912,7 @@ Stacksync token to obtain the comments related to the file:
 
 <b>URL parameters:</b> { “<b>id</b>”: “1950, “<b>cloud</b>”: “Stacksync”}
 
-<b>URL:</b> http://api.stacksync.com:8080/v1/comment/<b>:id</b>/<b>:cloud
+<b>URL:</b> http://api.stacksync.com:8080/v1/comment/<b>:id</b>/<b>:cloud</b>
 
 <center><img src="img/image37.jpg"/></center>
 
