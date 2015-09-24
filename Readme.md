@@ -1380,7 +1380,7 @@ Request the request token from a specific cloud for the eyeOS consumer.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -1422,7 +1422,7 @@ request token.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;“verifier”: “userVerified”</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -1452,7 +1452,7 @@ Request the request token of the eyeOS consumer.
   <tr>
     <td bgcolor="#C0C0C0">Method:</td>
     <td>GET</td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Signature:</td>
     <td>Plaintext</td>
@@ -1492,7 +1492,7 @@ Request the Access token of the eyeOS consumer from the saved request token.
   <tr>
     <td bgcolor="#C0C0C0">Method:</td>
     <td>GET</td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Signature:</td>
     <td>Plaintext</td>
@@ -1562,7 +1562,7 @@ directories in eyeOS.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -1643,7 +1643,7 @@ action of copying and moving in eyeOS.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -1734,7 +1734,7 @@ Create a new file or directory.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -1787,7 +1787,7 @@ Download the content of a file.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -1840,7 +1840,7 @@ Delete an existing file or directory.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -1897,7 +1897,7 @@ Rename a file or directory.
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -1957,7 +1957,7 @@ Move a file or directory.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2007,7 +2007,7 @@ Obtain the list of versions of a specific file.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2076,7 +2076,7 @@ Download the content of a specific version of an existing file.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2125,7 +2125,7 @@ Obtain the list of users who share the directory.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2178,7 +2178,7 @@ Share or stop sharing a directory with a list of users.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2232,7 +2232,7 @@ Create a new comment associated to a file shared on the cloud.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2285,7 +2285,7 @@ Delete a comment associated to a file shared on the cloud.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2335,7 +2335,7 @@ Obtain a list of comments associated to a file shared on the cloud
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2408,7 +2408,7 @@ Create a new event in the calendar.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2469,7 +2469,7 @@ Delete an event from the calendar.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2545,7 +2545,7 @@ Update the event data in the calendar.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2600,7 +2600,7 @@ Obtain all the events from a calendar.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2659,7 +2659,7 @@ Create a new calendar.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2712,7 +2712,7 @@ Delete a calendar.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2768,7 +2768,7 @@ Update calendar data.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2818,7 +2818,7 @@ Obtain a list with all of the user's calendars.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2868,7 +2868,7 @@ Obtain a list with all of the user‟s calendars and events.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2923,7 +2923,7 @@ Delete all the calendars and events of the user.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -2976,7 +2976,7 @@ Check if the file is blocked by another user.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -3035,7 +3035,7 @@ Unblock an eyeDocs file.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -3090,7 +3090,7 @@ Update the metadata with the date and time of the latest change.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -3145,7 +3145,7 @@ Unblock an eyeDocs file.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
@@ -3196,7 +3196,7 @@ Obtain the file structure of a file in the cloud.
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
       <span>}</span>
     </td>
-  <tr>
+  </tr>
   <tr>
     <td bgcolor="#C0C0C0">Return:</td>
     <td>
