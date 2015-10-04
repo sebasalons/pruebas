@@ -1292,7 +1292,9 @@ with which the configuration of the Sync API is linked to the configuration of t
 (annex 1). In the event that synchronization in the cloud is not implemented, an
 external Rest API can be used, following the same defined contract in our Sync API,
 which can be configured in settings.php, identifying the url where our API should
-connect. The constant is *[API_SYNC](APISync/Readme.md)*.
+connect. The constant is *API_SYNC*.
+
+[Installation Sync API](APISync/Readme.md)
 
 ### ANNEXES
 
