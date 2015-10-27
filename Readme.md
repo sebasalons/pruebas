@@ -4146,7 +4146,7 @@ addition to the accesstoken.
     <td>
       <span>RESOURCE_URL + comment/{id}/{cloud}/{interop}</span><br>
       <span>Example:</span><br>
-      <span>http://demo.eyeos.com/comment/2401/Stacksync</span>
+      <span>http://demo.eyeos.com/comment/2401/Stacksync/true</span>
     </td>
   </tr>
   <tr>
@@ -5334,7 +5334,7 @@ addition to the accesstoken.
     <td>
       <span>RESOURCE_URL + lockFile/{id}/{cloud}/{interop}</span><br>
       <span>Example:</span><br>
-      <span>http://demo.eyeos.com/lockFile/2401/Stacksync</span>
+      <span>http://demo.eyeos.com/lockFile/2401/Stacksync/true</span>
     </td>
   </tr>
   <tr>
